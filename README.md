@@ -12,7 +12,7 @@ sin backend, sin build, sin dependencias externas.
 
 ## Características
 
-- **35 preguntas al azar** de un banco de 80 (16 categorías), con alternativas barajadas.
+- **35 preguntas al azar** de un banco de 167 (17 categorías), con alternativas barajadas.
 - **3 preguntas de doble puntaje** (×2), una de cada categoría crítica cuando es posible:
   alcohol, velocidad y retención infantil. Marcadas con insignia **«DOBLE PUNTAJE ×2»**.
 - **Temporizador de 45:00** en cuenta regresiva (cambia de color en los últimos 5 min)
@@ -39,11 +39,12 @@ sin backend, sin build, sin dependencias externas.
 
 ```
 examen-clase-b/
-├── index.html      # estructura + pantallas (inicio, examen, estudio, resultados)
-├── styles.css      # estilos mobile-first
-├── app.js          # lógica del examen
-├── questions.json  # banco de 80 preguntas
-├── .nojekyll       # evita el procesamiento Jekyll de GitHub Pages
+├── index.html                      # estructura + pantallas (inicio, examen, estudio, resultados)
+├── styles.css                      # estilos mobile-first
+├── app.js                          # lógica del examen
+├── questions.json                  # banco de 167 preguntas (con cita al Libro CONASET)
+├── .nojekyll                       # evita el procesamiento Jekyll de GitHub Pages
+├── .github/workflows/deploy-pages.yml  # despliegue a GitHub Pages (Actions)
 └── README.md
 ```
 
@@ -59,13 +60,22 @@ python3 -m http.server 8000
 
 ## Despliegue
 
-Publicado con **GitHub Pages** (rama `main`, carpeta raíz). Tras cualquier cambio:
+Publicado con **GitHub Pages** mediante **GitHub Actions** (workflow oficial para
+sitios estáticos, definido en `.github/workflows/deploy-pages.yml`). Cada `push` a
+`main` reconstruye y publica el sitio automáticamente en 1–2 minutos:
 
 ```bash
 git add . && git commit -m "..." && git push
 ```
 
-Pages se actualiza automáticamente en 1–2 minutos.
+El workflow usa las acciones oficiales en su versión actual —`actions/checkout@v6`,
+`configure-pages@v6`, `upload-pages-artifact@v5`, `deploy-pages@v5`— que corren sobre
+el runtime **Node.js 24**, evitando la advertencia de deprecación de las acciones
+Node.js 20 del antiguo despliegue "desde rama".
+
+> El sitio en sí sigue siendo 100% estático (HTML/CSS/JS vanilla, sin dependencias
+> ni build): Node.js solo interviene en el runtime de las acciones de despliegue, no
+> en la app.
 
 ## Atajos de teclado (durante el examen)
 
