@@ -197,6 +197,8 @@
       if (opts.eliminated === idx) {
         label.classList.add("option--eliminated");
         input.disabled = true;
+        input.setAttribute("aria-disabled", "true");
+        input.tabIndex = -1;
       }
 
       label.appendChild(input);

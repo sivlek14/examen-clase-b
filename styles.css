@@ -413,6 +413,13 @@ h3 { font-size: 1.1rem; }
   background: var(--red-soft) !important;
 }
 .option--wrong .option__mark { background: var(--red); border-color: var(--red); }
+.option--eliminated {
+  opacity: .45;
+  text-decoration: line-through;
+  pointer-events: none;
+  background: #f3f5f7 !important;
+  border-color: var(--line) !important;
+}
 
 .explanation {
   margin-top: 14px;
@@ -641,8 +648,8 @@ h3 { font-size: 1.1rem; }
 
 /* ============== RESPONSIVE ≥ 640px ============== */
 @media (min-width: 640px) {
-  .home-actions { flex-direction: row; }
-  .home-actions .btn { flex: 1; }
+  .home-actions { flex-direction: row; flex-wrap: wrap; }
+  .home-actions .btn { flex: 1 1 30%; }
   .rules-grid { grid-template-columns: repeat(4, 1fr); }
   .results-actions { flex-direction: row; justify-content: center; }
   .results-actions .btn { flex: 0 1 240px; }
