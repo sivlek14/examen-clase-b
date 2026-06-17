@@ -956,6 +956,7 @@
           "). Si abriste el archivo directamente, usa un servidor local o el sitio publicado.";
         $("#btn-start-exam").disabled = true;
         $("#btn-start-study").disabled = true;
+        $("#btn-start-practice").disabled = true;
       });
   }
 
