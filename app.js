@@ -193,6 +193,11 @@
         }
       }
 
+      if (opts.eliminated === idx) {
+        label.classList.add("option--eliminated");
+        input.disabled = true;
+      }
+
       label.appendChild(input);
       label.appendChild(mark);
       label.appendChild(letter);
@@ -629,8 +634,46 @@
     showScreen("screen-practice");
   }
 
-  function loadPracticePool(category) { /* implemented in Task 3 */ }
-  function renderPracticeQuestion() { /* implemented in Task 3 */ }
+  function loadPracticePool(category) {
+    var src = category === "all" ? BANK : BANK.filter(function (q) { return q.category === category; });
+    practice.pool = shuffle(src).map(function (q) {
+      var mixed = shuffleOptions(q.options, q.correctIndex);
+      return {
+        id: q.id, category: q.category, categoryLabel: q.categoryLabel,
+        question: q.question, explanation: q.explanation || "",
+        bookPage: q.bookPage || null, bookQuote: q.bookQuote || "", hint: q.hint || "",
+        options: mixed.options, correctIndex: mixed.correctIndex, isDouble: false,
+        chosen: null, hintShown: false, eliminated: null
+      };
+    });
+    practice.current = 0;
+    renderPracticeQuestion();
+  }
+
+  function renderPracticeQuestion() {
+    stopPracticeTimer();
+    var host = $("#practice-host");
+    host.innerHTML = "";
+    if (!practice.pool.length) {
+      host.appendChild(el("p", "muted", "No hay preguntas en esta categoría."));
+      $("#practice-counter").textContent = "";
+      return;
+    }
+    var q = practice.pool[practice.current];
+    $("#practice-counter").textContent = "Pregunta " + (practice.current + 1) + " de " + practice.pool.length;
+
+    host.appendChild(renderQuestionCard(q, {
+      name: "practice-q-" + practice.current,
+      selected: q.chosen,
+      reveal: q.chosen !== null,
+      eliminated: q.hintShown ? q.eliminated : null,
+      onPick: function (idx) { q.chosen = idx; stopPracticeTimer(); renderPracticeQuestion(); }
+    }));
+
+    $("#btn-practice-prev").disabled = practice.current === 0;
+    $("#btn-practice-next").disabled = practice.current === practice.pool.length - 1;
+  }
+
   function stopPracticeTimer() { /* implemented in Task 4 */ }
 
   function loadStudyPool(category) {
