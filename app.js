@@ -10,6 +10,7 @@
   var BEST_SCORE_KEY = "examenClaseB.bestScore";
   var HISTORY_KEY = "examenClaseB.history";
   var HISTORY_MAX = 10;
+  var PRACTICE_HINT_SEC = 20;
 
   // ---------- Estado global de la app ----------
   var DATA = null;        // questions.json completo
@@ -662,6 +663,7 @@
     var q = practice.pool[practice.current];
     $("#practice-counter").textContent = "Pregunta " + (practice.current + 1) + " de " + practice.pool.length;
 
+    if (q.chosen === null || q.hintShown) host.appendChild(buildHintBar(q));
     host.appendChild(renderQuestionCard(q, {
       name: "practice-q-" + practice.current,
       selected: q.chosen,
@@ -672,9 +674,48 @@
 
     $("#btn-practice-prev").disabled = practice.current === 0;
     $("#btn-practice-next").disabled = practice.current === practice.pool.length - 1;
+
+    if (q.chosen === null && !q.hintShown) startPracticeCountdown(q);
   }
 
-  function stopPracticeTimer() { /* implemented in Task 4 */ }
+  function stopPracticeTimer() {
+    if (practice && practice.timerId) { clearInterval(practice.timerId); practice.timerId = null; }
+  }
+
+  // Construye la barra sobre la pregunta: muestra el contador o, si ya se reveló,
+  // la pista. revealHint() (Task 5) se encarga del estado revelado.
+  function buildHintBar(q) {
+    var bar = el("div", "hint-bar");
+    bar.id = "practice-hint-bar";
+    if (q.hintShown) {
+      bar.classList.add("hint-bar--revealed");
+      bar.appendChild(el("div", "hint-bar__hint", "💡 Pista: " + q.hint));
+    } else {
+      var txt = el("div", "hint-bar__text");
+      txt.id = "practice-countdown-text";
+      txt.textContent = "⏳ Pista en " + pad2(PRACTICE_HINT_SEC) + "s";
+      var track = el("div", "hint-bar__track");
+      var fill = el("i"); fill.id = "practice-countdown-fill"; fill.style.width = "100%";
+      track.appendChild(fill);
+      bar.appendChild(txt); bar.appendChild(track);
+    }
+    return bar;
+  }
+
+  function startPracticeCountdown(q) {
+    var remaining = PRACTICE_HINT_SEC;
+    practice.timerId = setInterval(function () {
+      remaining--;
+      if (remaining <= 0) { stopPracticeTimer(); revealHint(q); return; }
+      var txt = $("#practice-countdown-text");
+      var fill = $("#practice-countdown-fill");
+      if (txt) txt.textContent = "⏳ Pista en " + pad2(remaining) + "s";
+      if (fill) fill.style.width = (remaining / PRACTICE_HINT_SEC * 100) + "%";
+    }, 1000);
+  }
+
+  // Stub temporal — Task 5 reemplaza esta función con la lógica real de eliminación.
+  function revealHint(q) { q.hintShown = true; renderPracticeQuestion(); }
 
   function loadStudyPool(category) {
     var src = category === "all" ? BANK : BANK.filter(function (q) { return q.category === category; });
