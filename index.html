@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#103a63" />
+  <meta name="description" content="Simulador de práctica del examen teórico para la Licencia de Conducir Clase B en Chile (formato Nexteo / CONASET). Material de estudio NO oficial." />
+  <title>Examen de práctica — Licencia Clase B (Chile)</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🚗&lt;/text&gt;&lt;/svg&gt;" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <main id="main">
+
+    <!-- ============ PANTALLA: INICIO ============ -->
+    <section id="screen-home" class="screen" aria-labelledby="home-title">
+      <div class="container">
+        <div class="hero card">
+          <div class="hero__badge">🚗 Clase B · Chile</div>
+          <h1 id="home-title">Examen de práctica — Licencia Clase B (Chile)</h1>
+          <p class="hero__sub">Simulador del examen teórico formato <strong>Nexteo / CONASET</strong>.</p>
+
+          <ul class="rules-grid" aria-label="Reglas del examen">
+            <li class="rule"><span class="rule__num">35</span><span class="rule__label">preguntas al azar</span></li>
+            <li class="rule"><span class="rule__num">45<small>min</small></span><span class="rule__label">tiempo límite</span></li>
+            <li class="rule"><span class="rule__num">33<small>/38</small></span><span class="rule__label">para aprobar</span></li>
+            <li class="rule"><span class="rule__num">×2</span><span class="rule__label">3 preguntas valen doble</span></li>
+          </ul>
+
+          <div id="best-score" class="best-score" hidden>
+            🏆 Tu mejor puntaje: <strong id="best-score-value">0</strong> / 38
+          </div>
+
+          <div class="home-actions">
+            <button id="btn-start-exam" class="btn btn--primary btn--xl" type="button" disabled>Comenzar examen</button>
+            <button id="btn-start-study" class="btn btn--ghost btn--xl" type="button" disabled>Modo estudio</button>
+          </div>
+
+          <p class="disclaimer disclaimer--home" role="note">
+            ⚠️ <strong>Material de estudio NO oficial.</strong> Las preguntas reales de Nexteo son
+            confidenciales y se sortean al azar de un banco de más de 1.000 preguntas.
+            Estudia con el libro oficial:
+            <a href="https://mejoresconductores.conaset.cl" target="_blank" rel="noopener noreferrer">mejoresconductores.conaset.cl</a>.
+          </p>
+        </div>
+
+        <p id="load-status" class="load-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- ============ PANTALLA: EXAMEN ============ -->
+    <section id="screen-exam" class="screen" aria-labelledby="exam-heading" hidden>
+      <h2 id="exam-heading" class="sr-only">Examen en curso</h2>
+
+      <div class="exam-bar">
+        <div class="exam-bar__inner container">
+          <div class="exam-bar__progress">
+            Pregunta <span id="exam-current">1</span> <span class="muted">/</span> <span id="exam-total">35</span>
+          </div>
+          <div id="exam-timer" class="exam-bar__timer" role="timer" aria-live="off" aria-label="Tiempo restante">45:00</div>
+          <button id="btn-open-map" class="btn btn--small btn--outline" type="button" aria-haspopup="dialog">▦ Mapa</button>
+        </div>
+        <div class="exam-progressbar"><span id="exam-progressbar-fill"></span></div>
+      </div>
+
+      <div class="container exam-body">
+        <div id="question-host" class="question-host"><!-- render dinámico --></div>
+      </div>
+
+      <nav class="exam-nav" aria-label="Navegación del examen">
+        <div class="exam-nav__inner container">
+          <button id="btn-prev" class="btn btn--outline" type="button">◀ Anterior</button>
+          <button id="btn-flag" class="btn btn--flag" type="button" aria-pressed="false">⚑ Marcar</button>
+          <button id="btn-next" class="btn btn--outline" type="button">Siguiente ▶</button>
+          <button id="btn-finish" class="btn btn--primary" type="button">Finalizar examen</button>
+        </div>
+      </nav>
+    </section>
+
+    <!-- ============ PANTALLA: MODO ESTUDIO ============ -->
+    <section id="screen-study" class="screen" aria-labelledby="study-heading" hidden>
+      <div class="study-bar">
+        <div class="study-bar__inner container">
+          <button id="btn-study-back" class="btn btn--small btn--outline" type="button">◀ Inicio</button>
+          <h2 id="study-heading" class="study-bar__title">📚 Modo estudio</h2>
+          <label class="study-filter">
+            <span class="sr-only">Filtrar por categoría</span>
+            <select id="study-category" aria-label="Filtrar por categoría"></select>
+          </label>
+        </div>
+      </div>
+
+      <div class="container exam-body">
+        <p id="study-counter" class="study-counter" aria-live="polite"></p>
+        <div id="study-host" class="question-host"><!-- render dinámico --></div>
+        <nav class="exam-nav exam-nav--inline" aria-label="Navegación de estudio">
+          <button id="btn-study-prev" class="btn btn--outline" type="button">◀ Anterior</button>
+          <button id="btn-study-next" class="btn btn--outline" type="button">Siguiente ▶</button>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ============ PANTALLA: RESULTADOS ============ -->
+    <section id="screen-results" class="screen" aria-labelledby="results-heading" hidden>
+      <div class="container">
+        <div id="verdict-card" class="card verdict">
+          <h2 id="results-heading" class="sr-only">Resultados del examen</h2>
+          <div id="verdict-label" class="verdict__label">—</div>
+          <div class="verdict__score"><span id="verdict-score">0</span><span class="verdict__max">/ 38</span></div>
+          <p id="verdict-meta" class="verdict__meta"></p>
+          <div class="results-actions">
+            <button id="btn-retry" class="btn btn--primary btn--xl" type="button">Hacer otro examen</button>
+            <button id="btn-home" class="btn btn--ghost btn--xl" type="button">Volver al inicio</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="section-title">Desglose por categoría</h3>
+          <div id="category-breakdown" class="breakdown"></div>
+        </div>
+
+        <div class="card">
+          <h3 class="section-title">Revisión pregunta por pregunta</h3>
+          <div id="review-list" class="review-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div class="container">
+      <p>
+        ⚠️ <strong>Material de estudio NO oficial.</strong> Basado en la Ley de Tránsito 18.290 y el
+        Libro para la Conducción en Chile (CONASET). Las preguntas reales del examen Nexteo son
+        confidenciales. Libro oficial:
+        <a href="https://mejoresconductores.conaset.cl" target="_blank" rel="noopener noreferrer">mejoresconductores.conaset.cl</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Región para anuncios a lectores de pantalla (hitos del temporizador) -->
+  <div id="timer-announce" class="sr-only" role="status" aria-live="assertive"></div>
+
+  <!-- ============ MODAL: MAPA DE PREGUNTAS ============ -->
+  <div id="map-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="map-title" hidden>
+    <div class="modal__backdrop" data-close="map"></div>
+    <div class="modal__panel" tabindex="-1">
+      <div class="modal__head">
+        <h2 id="map-title">Mapa de preguntas</h2>
+        <button class="btn btn--icon" type="button" data-close="map" aria-label="Cerrar mapa">✕</button>
+      </div>
+      <div id="map-grid" class="map-grid" role="group" aria-label="Mapa de preguntas: ir a una pregunta"></div>
+      <div class="map-legend">
+        <span><i class="dot dot--answered"></i> Respondida</span>
+        <span><i class="dot dot--empty"></i> Sin responder</span>
+        <span><i class="dot dot--flagged"></i> Marcada</span>
+        <span><i class="dot dot--current"></i> Actual</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ MODAL: CONFIRMAR FINALIZAR ============ -->
+  <div id="confirm-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="confirm-title" hidden>
+    <div class="modal__backdrop" data-close="confirm"></div>
+    <div class="modal__panel modal__panel--sm" tabindex="-1">
+      <div class="modal__head">
+        <h2 id="confirm-title">¿Finalizar examen?</h2>
+      </div>
+      <p id="confirm-text" class="confirm-text"></p>
+      <div class="modal__actions">
+        <button id="btn-confirm-cancel" class="btn btn--outline" type="button" data-close="confirm">Seguir respondiendo</button>
+        <button id="btn-confirm-finish" class="btn btn--primary" type="button">Sí, finalizar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

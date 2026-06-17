@@ -1,0 +1,1223 @@
+{
+  "meta": {
+    "title": "Examen de práctica — Licencia Clase B (Chile)",
+    "source": "Basado en la Ley de Tránsito 18.290 y el Libro para la Conducción en Chile (CONASET).",
+    "disclaimer": "Material de estudio NO oficial. Las preguntas reales del examen Nexteo son confidenciales y se sortean al azar de un banco de más de 1.000 preguntas.",
+    "officialBook": "https://mejoresconductores.conaset.cl"
+  },
+  "examConfig": {
+    "totalQuestions": 35,
+    "timeLimitMinutes": 45,
+    "maxScore": 38,
+    "passScore": 33,
+    "doublePointCount": 3,
+    "doublePointCategories": [
+      "alcohol",
+      "velocidad",
+      "retencion_infantil"
+    ],
+    "note": "Se eligen 35 preguntas al azar. Se designan 3 como doble puntaje (una de cada categoría crítica si es posible). Vale 1 punto cada pregunta normal y 2 puntos cada pregunta de doble puntaje."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "¿Cuál es la velocidad máxima en una zona urbana?",
+      "options": [
+        "60 km/h",
+        "50 km/h",
+        "40 km/h",
+        "80 km/h"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regla general en ciudad para todo vehículo."
+    },
+    {
+      "id": 2,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "En una zona de escuela, en horario de entrada y salida de alumnos, la velocidad máxima es:",
+      "options": [
+        "50 km/h",
+        "30 km/h",
+        "40 km/h",
+        "20 km/h"
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "En un camino rural con una sola pista en cada sentido, la velocidad máxima es:",
+      "options": [
+        "100 km/h",
+        "120 km/h",
+        "80 km/h",
+        "90 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "En una autopista con dos o más pistas por sentido, la velocidad máxima general para un auto es:",
+      "options": [
+        "100 km/h",
+        "120 km/h",
+        "140 km/h",
+        "110 km/h"
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "Si no hay ninguna señal que indique la velocidad, usted debe:",
+      "options": [
+        "Aplicar el límite legal según el tipo de vía",
+        "Ir a la velocidad que estime",
+        "Ir siempre a 60 km/h",
+        "Acelerar libremente"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "Las velocidades máximas que fija la ley aplican cuando:",
+      "options": [
+        "Siempre, sin importar el clima",
+        "No hay riesgos, peligros ni señales que impongan un límite menor",
+        "Es de día",
+        "No hay Carabineros"
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "¿Quién puede fijar un límite de velocidad distinto en una calle urbana?",
+      "options": [
+        "Cualquier conductor",
+        "Carabineros",
+        "La Municipalidad, con estudio y señalización oficial",
+        "El dueño de la casa"
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "category": "velocidad",
+      "categoryLabel": "Velocidad",
+      "doublePointEligible": true,
+      "question": "Conducir muy por debajo del límite sin razón:",
+      "options": [
+        "También es riesgoso y puede entorpecer el tránsito",
+        "Siempre es lo más seguro",
+        "Está prohibido en zona urbana",
+        "No tiene ninguna consecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "¿Cuál es el límite a partir del cual se considera \"conducción bajo la influencia del alcohol\"?",
+      "options": [
+        "0,5 g/L",
+        "0,3 g/L",
+        "0,8 g/L",
+        "1,0 g/L"
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "¿A partir de qué nivel de alcohol en sangre se considera \"estado de ebriedad\"?",
+      "options": [
+        "0,3 g/L",
+        "0,5 g/L",
+        "0,8 g/L",
+        "1,0 g/L"
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "Un conductor profesional (clase A) tiene un límite de alcohol de:",
+      "options": [
+        "0,0 g/L (tolerancia cero)",
+        "0,3 g/L",
+        "0,5 g/L",
+        "0,8 g/L"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "Si un conductor se niega injustificadamente a hacerse el alcotest:",
+      "options": [
+        "No pasa nada",
+        "Solo paga una multa menor",
+        "Comete un delito y se presume su estado de ebriedad",
+        "Debe repetir el examen teórico"
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "La Ley Emilia establece, entre otras cosas:",
+      "options": [
+        "Solo multas en dinero",
+        "Cárcel efectiva (mínimo 1 año) cuando en estado de ebriedad se causan lesiones gravísimas o muerte",
+        "La rebaja del límite a 0,3",
+        "La obligación de usar SRI"
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "Si tras un accidente en estado de ebriedad el conductor huye del lugar:",
+      "options": [
+        "Comete un delito adicional; debe detenerse, auxiliar y avisar a la autoridad",
+        "No tiene sanción si no hubo heridos",
+        "Solo pierde puntos",
+        "Debe pagar el SOAP"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "¿Cuál es la regla práctica más segura respecto del alcohol?",
+      "options": [
+        "Una cerveza no afecta",
+        "Si vas a manejar, no consumas alcohol",
+        "Esperar 30 minutos",
+        "Tomar agua antes de conducir"
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "El consumo de ciertos **medicamentos** (ej. que producen somnolencia) al conducir:",
+      "options": [
+        "Puede afectar la capacidad de conducir y aumentar el riesgo",
+        "Nunca afecta",
+        "Solo importa en carretera",
+        "Está siempre prohibido"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "category": "alcohol",
+      "categoryLabel": "Alcohol y drogas",
+      "doublePointEligible": true,
+      "question": "Un seguro vehicular ante un accidente con el conductor sobre el límite de alcohol:",
+      "options": [
+        "Puede negar la cobertura",
+        "Siempre cubre igual",
+        "Cubre solo a terceros",
+        "Duplica la cobertura"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "category": "retencion_infantil",
+      "categoryLabel": "Retención infantil (SRI)",
+      "doublePointEligible": true,
+      "question": "¿Hasta qué edad un niño debe viajar siempre en el asiento trasero?",
+      "options": [
+        "6 años",
+        "8 años",
+        "Menores de 12 años",
+        "Menores de 18 años"
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "category": "retencion_infantil",
+      "categoryLabel": "Retención infantil (SRI)",
+      "doublePointEligible": true,
+      "question": "¿Hasta cuándo es obligatorio el uso de un sistema de retención infantil (silla/alzador)?",
+      "options": [
+        "Hasta cumplir 9 años, o alcanzar 135 cm y 33 kg",
+        "Hasta los 5 años",
+        "Hasta los 12 años siempre",
+        "Solo para bebés"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "category": "retencion_infantil",
+      "categoryLabel": "Retención infantil (SRI)",
+      "doublePointEligible": true,
+      "question": "Llevar a un menor de 12 años en el asiento delantero es una infracción:",
+      "options": [
+        "Leve",
+        "Menos grave",
+        "Gravísima",
+        "Sin sanción"
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "category": "retencion_infantil",
+      "categoryLabel": "Retención infantil (SRI)",
+      "doublePointEligible": true,
+      "question": "¿Por qué los niños deben ir en el asiento trasero?",
+      "options": [
+        "Porque en un choque frontal la energía es mayor adelante y los airbags están diseñados para adultos",
+        "Porque ven mejor",
+        "Porque la ley lo dice sin razón",
+        "Por comodidad"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "category": "retencion_infantil",
+      "categoryLabel": "Retención infantil (SRI)",
+      "doublePointEligible": true,
+      "question": "¿Quién es el responsable de que los menores viajen correctamente asegurados?",
+      "options": [
+        "El conductor",
+        "Los padres aunque no manejen",
+        "Carabineros",
+        "El fabricante de la silla"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "category": "retencion_infantil",
+      "categoryLabel": "Retención infantil (SRI)",
+      "doublePointEligible": true,
+      "question": "Un niño de 11 años que ya mide 140 cm:",
+      "options": [
+        "Igual debe ir en el asiento trasero por ser menor de 12",
+        "Puede ir adelante",
+        "No necesita cinturón",
+        "Debe usar silla"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "category": "senales",
+      "categoryLabel": "Señales de tránsito",
+      "doublePointEligible": false,
+      "question": "La señal **PARE** (octágono rojo) significa:",
+      "options": [
+        "Detención total obligatoria antes de continuar",
+        "Disminuir la velocidad",
+        "Ceder el paso sin detenerse",
+        "Prohibido estacionar"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "category": "senales",
+      "categoryLabel": "Señales de tránsito",
+      "doublePointEligible": false,
+      "question": "La señal **CEDA EL PASO** (triángulo invertido) indica:",
+      "options": [
+        "Dar prioridad a los vehículos de la otra vía; detenerse si es necesario",
+        "Detención total siempre",
+        "Adelantar permitido",
+        "Zona de escuela"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "category": "senales",
+      "categoryLabel": "Señales de tránsito",
+      "doublePointEligible": false,
+      "question": "Las señales **preventivas** (fondo amarillo, forma de rombo):",
+      "options": [
+        "Advierten de un peligro próximo en la vía",
+        "Prohíben maniobras",
+        "Indican servicios",
+        "Marcan el fin de una restricción"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "category": "senales",
+      "categoryLabel": "Señales de tránsito",
+      "doublePointEligible": false,
+      "question": "Las señales **reglamentarias** sirven para:",
+      "options": [
+        "Indicar obligaciones o prohibiciones que deben cumplirse",
+        "Solo informar destinos",
+        "Advertir curvas",
+        "Decorar la vía"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "category": "senales",
+      "categoryLabel": "Señales de tránsito",
+      "doublePointEligible": false,
+      "question": "Una señal de fondo **verde** generalmente es:",
+      "options": [
+        "Preventiva",
+        "Reglamentaria",
+        "Informativa (orienta sobre destinos/servicios)",
+        "De prohibición"
+      ],
+      "correctIndex": 2,
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "category": "senales",
+      "categoryLabel": "Señales de tránsito",
+      "doublePointEligible": false,
+      "question": "Ante una señal de \"Curva peligrosa a la derecha\", lo correcto es:",
+      "options": [
+        "Reducir la velocidad y mantenerse en su pista",
+        "Acelerar",
+        "Adelantar",
+        "Cambiar de carril"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "category": "demarcaciones",
+      "categoryLabel": "Demarcaciones y líneas",
+      "doublePointEligible": false,
+      "question": "Una **línea continua** al centro de la calzada significa:",
+      "options": [
+        "Está prohibido adelantar o cruzar al otro carril",
+        "Se puede adelantar con cuidado",
+        "Indica zona de estacionamiento",
+        "Marca un paso peatonal"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "category": "demarcaciones",
+      "categoryLabel": "Demarcaciones y líneas",
+      "doublePointEligible": false,
+      "question": "Una **línea segmentada (discontinua)** permite:",
+      "options": [
+        "Adelantar con precaución cuando es seguro",
+        "Estacionar siempre",
+        "Nada, es decorativa",
+        "Detenerse en la vía"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "category": "demarcaciones",
+      "categoryLabel": "Demarcaciones y líneas",
+      "doublePointEligible": false,
+      "question": "Las líneas **amarillas** en la calzada generalmente:",
+      "options": [
+        "Separan sentidos de circulación opuestos",
+        "Indican estacionamiento gratis",
+        "Marcan ciclovías",
+        "No tienen significado"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "category": "demarcaciones",
+      "categoryLabel": "Demarcaciones y líneas",
+      "doublePointEligible": false,
+      "question": "El **paso de cebra** (rayas blancas) indica:",
+      "options": [
+        "Cruce peatonal: el peatón tiene prioridad",
+        "Zona de adelantamiento",
+        "Estacionamiento",
+        "Fin de la vía"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "category": "preferencia_paso",
+      "categoryLabel": "Derecho preferente de paso",
+      "doublePointEligible": false,
+      "question": "En una intersección sin señales ni semáforo, ¿quién tiene la preferencia?",
+      "options": [
+        "El vehículo que se aproxima por la derecha",
+        "El que va más rápido",
+        "El de mayor tamaño",
+        "El que llegó después"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "category": "preferencia_paso",
+      "categoryLabel": "Derecho preferente de paso",
+      "doublePointEligible": false,
+      "question": "Al llegar a una intersección con señal PARE, usted debe:",
+      "options": [
+        "Detenerse totalmente y ceder el paso antes de avanzar",
+        "Solo bajar la velocidad",
+        "Tocar la bocina y pasar",
+        "Pasar si no viene nadie a la vista"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "category": "preferencia_paso",
+      "categoryLabel": "Derecho preferente de paso",
+      "doublePointEligible": false,
+      "question": "Un peatón cruzando por un paso habilitado:",
+      "options": [
+        "Tiene derecho preferente; el conductor debe cederle el paso",
+        "Debe esperar al vehículo",
+        "Solo tiene prioridad de noche",
+        "No tiene prioridad en avenidas"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "category": "preferencia_paso",
+      "categoryLabel": "Derecho preferente de paso",
+      "doublePointEligible": false,
+      "question": "Al ingresar a una rotonda (glorieta), generalmente:",
+      "options": [
+        "Tiene preferencia quien ya circula dentro de la rotonda",
+        "Tiene preferencia quien entra",
+        "No hay reglas",
+        "Siempre el de la izquierda"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "category": "preferencia_paso",
+      "categoryLabel": "Derecho preferente de paso",
+      "doublePointEligible": false,
+      "question": "Antes de virar, el conductor debe:",
+      "options": [
+        "Señalizar con anticipación, ubicarse en la pista correcta y ceder a peatones",
+        "Virar de inmediato",
+        "Acelerar",
+        "Tocar la bocina"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "category": "semaforos",
+      "categoryLabel": "Semáforos y prioridades",
+      "doublePointEligible": false,
+      "question": "El semáforo está en **rojo** pero un Carabinero le indica avanzar. Usted debe:",
+      "options": [
+        "Obedecer al Carabinero; su instrucción prevalece sobre la señal",
+        "Respetar el rojo e ignorar al Carabinero",
+        "Tocar la bocina",
+        "Detenerse y esperar"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "category": "semaforos",
+      "categoryLabel": "Semáforos y prioridades",
+      "doublePointEligible": false,
+      "question": "Luz **amarilla (intermedia)** del semáforo significa:",
+      "options": [
+        "Precaución: la luz está por cambiar a rojo; detenerse si es seguro",
+        "Acelerar para pasar",
+        "Avanzar libremente",
+        "Lo mismo que el verde"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "category": "semaforos",
+      "categoryLabel": "Semáforos y prioridades",
+      "doublePointEligible": false,
+      "question": "El semáforo está en **rojo** y no viene ningún vehículo. Usted debe:",
+      "options": [
+        "Respetar la luz roja y no avanzar",
+        "Avanzar porque no hay nadie",
+        "Avanzar tocando la bocina",
+        "Avanzar lentamente"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "category": "semaforos",
+      "categoryLabel": "Semáforos y prioridades",
+      "doublePointEligible": false,
+      "question": "Un vehículo de emergencia (ambulancia, bomberos, policía) se acerca con sirena. Usted debe:",
+      "options": [
+        "Orillarse a la derecha, detenerse si es necesario y cederle el paso",
+        "Acelerar para no estorbar",
+        "Frenar bruscamente en su pista",
+        "Seguir igual"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "category": "semaforos",
+      "categoryLabel": "Semáforos y prioridades",
+      "doublePointEligible": false,
+      "question": "En un semáforo peatonal, la **botonera** sirve para:",
+      "options": [
+        "Avisar que una persona espera para cruzar",
+        "Apagar el semáforo",
+        "Llamar a Carabineros",
+        "Cambiar la hora"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "category": "adelantamiento",
+      "categoryLabel": "Adelantamiento",
+      "doublePointEligible": false,
+      "question": "El adelantamiento se realiza, por regla general, por:",
+      "options": [
+        "La izquierda, cuando es seguro y está permitido",
+        "La derecha siempre",
+        "La berma",
+        "Cualquier lado"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "category": "adelantamiento",
+      "categoryLabel": "Adelantamiento",
+      "doublePointEligible": false,
+      "question": "No se debe adelantar cuando:",
+      "options": [
+        "Hay línea continua, curvas, cuestas o visibilidad reducida",
+        "La vía está recta",
+        "Es de día",
+        "No viene nadie"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "category": "adelantamiento",
+      "categoryLabel": "Adelantamiento",
+      "doublePointEligible": false,
+      "question": "Antes de adelantar, el conductor debe:",
+      "options": [
+        "Verificar que la pista contraria esté libre y señalizar la maniobra",
+        "Solo tocar la bocina",
+        "Cerrar los ojos",
+        "Acelerar sin mirar"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "category": "adelantamiento",
+      "categoryLabel": "Adelantamiento",
+      "doublePointEligible": false,
+      "question": "Si otro vehículo lo está adelantando, usted debe:",
+      "options": [
+        "Mantener su velocidad y no acelerar, facilitando la maniobra",
+        "Acelerar para impedirlo",
+        "Frenar bruscamente",
+        "Cambiarse de pista"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "category": "estacionamiento",
+      "categoryLabel": "Estacionamiento y detención",
+      "doublePointEligible": false,
+      "question": "Está prohibido estacionar:",
+      "options": [
+        "En cruces, pasos peatonales, frente a hidrantes y donde la señal lo prohíba",
+        "En cualquier calle",
+        "Solo de noche",
+        "En estacionamientos pagados"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "category": "estacionamiento",
+      "categoryLabel": "Estacionamiento y detención",
+      "doublePointEligible": false,
+      "question": "Al estacionar en una pendiente (subida) junto a una vereda, las ruedas delanteras deben quedar:",
+      "options": [
+        "Giradas hacia afuera de la vereda (para que el auto no ruede hacia la calle)",
+        "Rectas",
+        "Giradas hacia la vereda",
+        "Da igual"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "category": "estacionamiento",
+      "categoryLabel": "Estacionamiento y detención",
+      "doublePointEligible": false,
+      "question": "Detenerse sobre un paso de cebra:",
+      "options": [
+        "Está prohibido; obstruye el cruce peatonal",
+        "Se permite si es breve",
+        "Solo de día",
+        "No tiene sanción"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 51,
+      "category": "cinturon_seguridad",
+      "categoryLabel": "Cinturón y seguridad",
+      "doublePointEligible": false,
+      "question": "El uso del cinturón de seguridad es obligatorio para:",
+      "options": [
+        "Todos los ocupantes del vehículo, adelante y atrás",
+        "Solo el conductor",
+        "Solo en carretera",
+        "Solo el copiloto"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 52,
+      "category": "cinturon_seguridad",
+      "categoryLabel": "Cinturón y seguridad",
+      "doublePointEligible": false,
+      "question": "El **airbag** es un elemento de seguridad:",
+      "options": [
+        "Activa",
+        "Pasiva (protege durante el impacto)",
+        "Mecánica",
+        "Eléctrica"
+      ],
+      "correctIndex": 1,
+      "explanation": ""
+    },
+    {
+      "id": 53,
+      "category": "cinturon_seguridad",
+      "categoryLabel": "Cinturón y seguridad",
+      "doublePointEligible": false,
+      "question": "Los frenos ABS son un ejemplo de seguridad:",
+      "options": [
+        "Activa (ayudan a evitar el accidente)",
+        "Pasiva",
+        "Decorativa",
+        "De confort"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 54,
+      "category": "cinturon_seguridad",
+      "categoryLabel": "Cinturón y seguridad",
+      "doublePointEligible": false,
+      "question": "El apoyacabezas correctamente ajustado sirve para:",
+      "options": [
+        "Prevenir lesiones cervicales en un impacto trasero",
+        "Mayor comodidad únicamente",
+        "Sostener el cinturón",
+        "Nada importante"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 55,
+      "category": "distancia_detencion",
+      "categoryLabel": "Distancia de detención",
+      "doublePointEligible": false,
+      "question": "La **distancia de detención** es igual a:",
+      "options": [
+        "Distancia de reacción + distancia de frenado",
+        "Solo la distancia de frenado",
+        "Solo la distancia de reacción",
+        "El largo del vehículo"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 56,
+      "category": "distancia_detencion",
+      "categoryLabel": "Distancia de detención",
+      "doublePointEligible": false,
+      "question": "A mayor velocidad, la distancia necesaria para detenerse:",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene igual",
+        "Desaparece"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 57,
+      "category": "distancia_detencion",
+      "categoryLabel": "Distancia de detención",
+      "doublePointEligible": false,
+      "question": "Con pavimento mojado, la distancia de frenado:",
+      "options": [
+        "Aumenta; hay que dejar más distancia con el vehículo de adelante",
+        "Disminuye",
+        "No cambia",
+        "Se reduce a la mitad"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 58,
+      "category": "distancia_detencion",
+      "categoryLabel": "Distancia de detención",
+      "doublePointEligible": false,
+      "question": "La distancia de **reacción** depende principalmente de:",
+      "options": [
+        "El tiempo que tarda el conductor en reaccionar (atención, cansancio, alcohol)",
+        "El color del auto",
+        "La marca de los neumáticos",
+        "La hora del día solamente"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 59,
+      "category": "convivencia_vial",
+      "categoryLabel": "Convivencia vial",
+      "doublePointEligible": false,
+      "question": "Respecto de los ciclistas, el conductor debe:",
+      "options": [
+        "Respetarlos como usuarios de la vía y mantener distancia al adelantar",
+        "Tocarles la bocina",
+        "Adelantarlos muy cerca",
+        "Impedirles circular"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 60,
+      "category": "convivencia_vial",
+      "categoryLabel": "Convivencia vial",
+      "doublePointEligible": false,
+      "question": "La \"convivencia vial\" se basa en:",
+      "options": [
+        "El respeto mutuo y el principio de confianza entre todos los usuarios de la vía",
+        "Que el más grande tiene prioridad",
+        "Que los autos mandan",
+        "Ir siempre rápido"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 61,
+      "category": "convivencia_vial",
+      "categoryLabel": "Convivencia vial",
+      "doublePointEligible": false,
+      "question": "Frente a un usuario vulnerable (peatón mayor, niño, persona con discapacidad):",
+      "options": [
+        "Extremar la precaución y cederle el paso",
+        "Apurarlo",
+        "Ignorarlo",
+        "Tocar la bocina"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 62,
+      "category": "convivencia_vial",
+      "categoryLabel": "Convivencia vial",
+      "doublePointEligible": false,
+      "question": "Un ciclista, en general, debe circular:",
+      "options": [
+        "En el mismo sentido del tránsito, por la derecha o por la ciclovía si existe",
+        "En contra del tránsito",
+        "Por la vereda siempre",
+        "Por el centro de la pista"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 63,
+      "category": "condiciones_especiales",
+      "categoryLabel": "Conducción en condiciones especiales",
+      "doublePointEligible": false,
+      "question": "Al conducir con **lluvia**, lo recomendable es:",
+      "options": [
+        "Reducir la velocidad, encender luces y aumentar la distancia de seguimiento",
+        "Acelerar para llegar antes",
+        "Apagar las luces",
+        "Frenar bruscamente"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 64,
+      "category": "condiciones_especiales",
+      "categoryLabel": "Conducción en condiciones especiales",
+      "doublePointEligible": false,
+      "question": "Con **niebla densa**, debe usar:",
+      "options": [
+        "Luces bajas (y antiniebla si tiene); nunca luces altas",
+        "Luces altas",
+        "Las balizas siempre encendidas en movimiento",
+        "Ninguna luz"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 65,
+      "category": "condiciones_especiales",
+      "categoryLabel": "Conducción en condiciones especiales",
+      "doublePointEligible": false,
+      "question": "Si los neumáticos pierden contacto con el agua (aquaplaning), debe:",
+      "options": [
+        "Soltar el acelerador, no frenar bruscamente y mantener el volante firme",
+        "Frenar a fondo",
+        "Acelerar",
+        "Girar bruscamente"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 66,
+      "category": "condiciones_especiales",
+      "categoryLabel": "Conducción en condiciones especiales",
+      "doublePointEligible": false,
+      "question": "Conducir de noche exige:",
+      "options": [
+        "Mayor distancia, menor velocidad y uso correcto de luces",
+        "Lo mismo que de día",
+        "Usar siempre luces altas",
+        "Apagar luces en ciudad"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 67,
+      "category": "documentacion",
+      "categoryLabel": "Documentación y normativa",
+      "doublePointEligible": false,
+      "question": "El **SOAP** es:",
+      "options": [
+        "El Seguro Obligatorio de Accidentes Personales; cubre daños físicos a personas en un accidente",
+        "Un permiso de estacionamiento",
+        "La licencia de conducir",
+        "La revisión técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 68,
+      "category": "documentacion",
+      "categoryLabel": "Documentación y normativa",
+      "doublePointEligible": false,
+      "question": "Para circular legalmente, el vehículo debe tener al día:",
+      "options": [
+        "Permiso de circulación, SOAP y revisión técnica",
+        "Solo el permiso de circulación",
+        "Solo el SOAP",
+        "Ningún documento"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 69,
+      "category": "documentacion",
+      "categoryLabel": "Documentación y normativa",
+      "doublePointEligible": false,
+      "question": "La **revisión técnica** verifica:",
+      "options": [
+        "Que el vehículo esté en condiciones mecánicas y de emisiones para circular",
+        "El valor del auto",
+        "El seguro de robo",
+        "La marca del auto"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 70,
+      "category": "documentacion",
+      "categoryLabel": "Documentación y normativa",
+      "doublePointEligible": false,
+      "question": "La licencia de conducir clase B permite conducir:",
+      "options": [
+        "Automóviles, camionetas, furgones y similares de hasta 3.500 kg",
+        "Buses de pasajeros",
+        "Camiones pesados",
+        "Motocicletas de gran cilindrada profesionalmente"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 71,
+      "category": "mecanica_luces",
+      "categoryLabel": "Mecánica básica y luces",
+      "doublePointEligible": false,
+      "question": "Antes de un viaje largo conviene revisar:",
+      "options": [
+        "Neumáticos, niveles (aceite, agua, frenos), luces y frenos",
+        "Solo el estanque de bencina",
+        "La radio",
+        "Nada"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 72,
+      "category": "mecanica_luces",
+      "categoryLabel": "Mecánica básica y luces",
+      "doublePointEligible": false,
+      "question": "Las **luces intermitentes (balizas)** se usan para:",
+      "options": [
+        "Advertir una emergencia o que el vehículo está detenido en un lugar de riesgo",
+        "Avanzar más rápido",
+        "Saludar",
+        "Adelantar"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 73,
+      "category": "mecanica_luces",
+      "categoryLabel": "Mecánica básica y luces",
+      "doublePointEligible": false,
+      "question": "Si se enciende la luz roja de **temperatura/motor** en el tablero, debe:",
+      "options": [
+        "Detenerse de forma segura y revisar; seguir puede dañar el motor",
+        "Acelerar",
+        "Ignorarla",
+        "Tapar el indicador"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 74,
+      "category": "mecanica_luces",
+      "categoryLabel": "Mecánica básica y luces",
+      "doublePointEligible": false,
+      "question": "El uso de luces bajas en zonas urbanas de noche:",
+      "options": [
+        "Es correcto; las altas encandilan a otros conductores",
+        "Está prohibido",
+        "Solo en carretera",
+        "Da igual"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 75,
+      "category": "mecanica_luces",
+      "categoryLabel": "Mecánica básica y luces",
+      "doublePointEligible": false,
+      "question": "Un neumático muy desgastado (sin dibujo):",
+      "options": [
+        "Aumenta el riesgo de accidente, sobre todo en mojado, y debe cambiarse",
+        "Mejora el agarre",
+        "No importa en ciudad",
+        "Solo afecta el consumo"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 76,
+      "category": "situaciones",
+      "categoryLabel": "Situaciones (estilo Nexteo)",
+      "doublePointEligible": false,
+      "question": "Va a 90 km/h en carretera, anochece y la visibilidad es baja. Lo correcto es:",
+      "options": [
+        "Reducir la velocidad y aumentar la atención ante curvas o imprevistos",
+        "Mantener la velocidad",
+        "Acelerar para salir del tramo",
+        "Apagar las luces"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 77,
+      "category": "situaciones",
+      "categoryLabel": "Situaciones (estilo Nexteo)",
+      "doublePointEligible": false,
+      "question": "Se acerca a un vehículo de transporte escolar **detenido con luces intermitentes**:",
+      "options": [
+        "Reducir la velocidad, detenerse si es necesario y avanzar con precaución",
+        "Adelantar rápido",
+        "Tocar la bocina",
+        "Mantener la velocidad"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 78,
+      "category": "situaciones",
+      "categoryLabel": "Situaciones (estilo Nexteo)",
+      "doublePointEligible": false,
+      "question": "Siente sueño y cansancio mientras conduce. Lo recomendable es:",
+      "options": [
+        "Detenerse en un lugar seguro a descansar; la fatiga es un factor de riesgo",
+        "Tomar más café y seguir",
+        "Subir el volumen y seguir",
+        "Acelerar para llegar antes"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 79,
+      "category": "situaciones",
+      "categoryLabel": "Situaciones (estilo Nexteo)",
+      "doublePointEligible": false,
+      "question": "Un semáforo se pone en amarillo cuando usted ya está cruzando la intersección:",
+      "options": [
+        "Completar el cruce con seguridad",
+        "Frenar en seco en medio del cruce",
+        "Retroceder",
+        "Acelerar al máximo"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    },
+    {
+      "id": 80,
+      "category": "situaciones",
+      "categoryLabel": "Situaciones (estilo Nexteo)",
+      "doublePointEligible": false,
+      "question": "Frente a una manifestación o congestión que bloquea su paso:",
+      "options": [
+        "Esperar con paciencia y seguir las indicaciones de la autoridad",
+        "Subirse a la vereda",
+        "Avanzar tocando la bocina",
+        "Conducir en contra del tránsito"
+      ],
+      "correctIndex": 0,
+      "explanation": ""
+    }
+  ]
+}
