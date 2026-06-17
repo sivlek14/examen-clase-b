@@ -714,8 +714,23 @@
     }, 1000);
   }
 
-  // Stub temporal — Task 5 reemplaza esta función con la lógica real de eliminación.
-  function revealHint(q) { q.hintShown = true; renderPracticeQuestion(); }
+  function pickEliminated(q) {
+    var wrong = [];
+    q.options.forEach(function (_, i) { if (i !== q.correctIndex) wrong.push(i); });
+    return shuffle(wrong)[0];
+  }
+
+  function announcePractice(msg) {
+    var node = $("#practice-announce");
+    if (node) node.textContent = msg;
+  }
+
+  function revealHint(q) {
+    q.hintShown = true;
+    q.eliminated = pickEliminated(q);
+    announcePractice("Pista disponible.");
+    renderPracticeQuestion();
+  }
 
   function loadStudyPool(category) {
     var src = category === "all" ? BANK : BANK.filter(function (q) { return q.category === category; });
