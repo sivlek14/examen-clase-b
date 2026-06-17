@@ -10,6 +10,31 @@ sin backend, sin build, sin dependencias externas.
 > confidenciales y se sortean al azar de un banco de más de 1.000 preguntas.
 > Estudia con el libro oficial: <https://mejoresconductores.conaset.cl>
 
+## Capturas de pantalla
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/01-inicio.png" width="240" alt="Pantalla de inicio con los tres modos" /><br />
+      <sub>Inicio — los 3 modos</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/02-examen.png" width="240" alt="Examen cronometrado" /><br />
+      <sub>Examen — 35 preguntas · 45:00</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/03-practica-contador.png" width="240" alt="Modo práctica con el contador de 20 segundos" /><br />
+      <sub>Práctica — contador de 20 s sobre la pregunta</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/04-practica-pista.png" width="240" alt="Modo práctica con la pista revelada y una alternativa descartada" /><br />
+      <sub>Práctica — a los 0 s: pista + se descarta una alternativa (50/50)</sub>
+    </td>
+  </tr>
+</table>
+
 ## Características
 
 - **35 preguntas al azar** de un banco de 167 (17 categorías), con alternativas barajadas.
