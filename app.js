@@ -120,6 +120,8 @@
         categoryLabel: q.categoryLabel,
         question: q.question,
         explanation: q.explanation || "",
+        bookPage: q.bookPage || null,
+        bookQuote: q.bookQuote || "",
         options: mixed.options,
         correctIndex: mixed.correctIndex,
         isDouble: isDouble,
@@ -207,8 +209,29 @@
       exp.innerHTML = "<strong>Explicación:</strong> " + escapeHtml(q.explanation);
       card.appendChild(exp);
     }
+    if (opts.reveal) card.appendChild(bookRefEl(q));
 
     return card;
+  }
+
+  // Bloque de referencia al Libro oficial: página + extracto que confirma la
+  // respuesta cuando existe en el libro; si no, una nota honesta de fundamento.
+  function bookRefEl(q) {
+    if (q.bookPage) {
+      var ref = el("div", "book-ref");
+      ref.appendChild(el("div", "book-ref__src",
+        "📖 Libro para la Conducción en Chile (CONASET) · pág. " + q.bookPage));
+      if (q.bookQuote) {
+        var quote = el("blockquote", "book-ref__quote", "«" + q.bookQuote + "»");
+        ref.appendChild(quote);
+      }
+      return ref;
+    }
+    var gap = el("div", "book-ref book-ref--gap");
+    gap.appendChild(el("div", "book-ref__src", "📖 Sin cita textual en el Libro CONASET"));
+    gap.appendChild(el("div", "book-ref__note",
+      "Este punto se fundamenta en la Ley de Tránsito 18.290 y normas asociadas; el Libro para la Conducción no lo trata como cita textual."));
+    return gap;
   }
 
   // Convierte **negrita** del texto del banco a <strong> de forma segura
@@ -465,6 +488,7 @@
         exp.innerHTML = "<strong>Explicación:</strong> " + escapeHtml(q.explanation);
         item.appendChild(exp);
       }
+      item.appendChild(bookRefEl(q));
       list.appendChild(item);
     });
 
@@ -534,6 +558,8 @@
         categoryLabel: q.categoryLabel,
         question: q.question,
         explanation: q.explanation || "",
+        bookPage: q.bookPage || null,
+        bookQuote: q.bookQuote || "",
         options: mixed.options,
         correctIndex: mixed.correctIndex,
         isDouble: false,
