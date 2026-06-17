@@ -21,7 +21,8 @@ sin backend, sin build, sin dependencias externas.
 - Pantalla de resultados: **puntaje X/38**, veredicto **APROBADO** (≥ 33) / **REPROBADO**,
   desglose por categoría y revisión pregunta por pregunta con respuesta correcta y explicación.
 - **Modo estudio** opcional: sin temporizador, feedback inmediato y filtro por categoría.
-- Mejor puntaje histórico guardado en `localStorage`.
+- **Referencia al Libro CONASET** en cada pregunta: página y extracto textual que confirma la respuesta (revisión y modo estudio).
+- Mejor puntaje histórico e **historial de los últimos 10 exámenes** guardados en `localStorage` (con opción de borrar).
 - Mobile-first, responsive, accesible (navegable por teclado, foco visible, `aria-*`).
 
 ## Reglas del examen

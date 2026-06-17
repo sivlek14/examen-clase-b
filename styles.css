@@ -207,6 +207,47 @@ h3 { font-size: 1.1rem; }
   margin-bottom: 18px;
 }
 
+/* ---------- Historial de exámenes ---------- */
+.history { text-align: left; }
+.history__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.history__head .section-title { margin: 0; }
+.history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  counter-reset: hist;
+}
+.hist-item {
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--muted);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+}
+.hist-item--pass { border-left-color: var(--green); }
+.hist-item--fail { border-left-color: var(--red); }
+.hist-item__main { display: flex; align-items: baseline; gap: 10px; }
+.hist-item__score { font-weight: 800; font-size: 1.05rem; color: var(--blue-900); }
+.hist-item__verdict {
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+.hist-item--pass .hist-item__verdict { background: var(--green-soft); color: var(--green); }
+.hist-item--fail .hist-item__verdict { background: var(--red-soft); color: var(--red); }
+.hist-item__meta { margin-top: 4px; font-size: .8rem; color: var(--muted); }
+
 .home-actions {
   display: flex;
   flex-direction: column;

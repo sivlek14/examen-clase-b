@@ -8,6 +8,8 @@
   // ---------- Constantes ----------
   var LETTERS = ["A", "B", "C", "D"];
   var BEST_SCORE_KEY = "examenClaseB.bestScore";
+  var HISTORY_KEY = "examenClaseB.history";
+  var HISTORY_MAX = 10;
 
   // ---------- Estado global de la app ----------
   var DATA = null;        // questions.json completo
@@ -493,6 +495,18 @@
     });
 
     saveBestScore(score);
+    saveHistoryEntry({
+      ts: Date.now(),
+      score: score,
+      max: maxScore,
+      passed: passed,
+      correct: correctCount,
+      total: exam.questions.length,
+      usedSec: usedSec,
+      doubleCorrect: doubleCorrect,
+      auto: !!exam.autoSubmitted
+    });
+    renderHistory();
   }
 
   function formatDuration(sec) {
@@ -521,6 +535,62 @@
     var box = $("#best-score");
     if (best === null) { box.hidden = true; return; }
     $("#best-score-value").textContent = String(best);
+    box.hidden = false;
+  }
+
+  // ---------- Historial de exámenes (localStorage, últimos 10) ----------
+  function loadHistory() {
+    try {
+      var arr = JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]");
+      return Array.isArray(arr) ? arr : [];
+    } catch (e) { return []; }
+  }
+  function saveHistoryEntry(entry) {
+    try {
+      var arr = loadHistory();
+      arr.unshift(entry);                       // más reciente primero
+      if (arr.length > HISTORY_MAX) arr = arr.slice(0, HISTORY_MAX);
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(arr));
+    } catch (e) { /* storage no disponible: ignorar */ }
+  }
+  function clearHistory() {
+    try { localStorage.removeItem(HISTORY_KEY); } catch (e) { /* ignorar */ }
+    renderHistory();
+  }
+  function formatHistDate(ts) {
+    try {
+      var d = new Date(ts);
+      return d.toLocaleDateString("es-CL", { day: "2-digit", month: "2-digit", year: "numeric" }) +
+        " · " + d.toLocaleTimeString("es-CL", { hour: "2-digit", minute: "2-digit" });
+    } catch (e) { return ""; }
+  }
+  function renderHistory() {
+    var box = $("#history");
+    var list = $("#history-list");
+    var hist = loadHistory();
+    list.innerHTML = "";
+    if (!hist.length) { box.hidden = true; return; }
+    hist.forEach(function (h) {
+      var max = h.max || CONFIG.maxScore;
+      var item = el("li", "hist-item " + (h.passed ? "hist-item--pass" : "hist-item--fail"));
+
+      var main = el("div", "hist-item__main");
+      var score = el("span", "hist-item__score", h.score + " / " + max);
+      var verdict = el("span", "hist-item__verdict", h.passed ? "Aprobado" : "Reprobado");
+      main.appendChild(score);
+      main.appendChild(verdict);
+
+      var meta = el("div", "hist-item__meta");
+      var bits = formatHistDate(h.ts);
+      if (typeof h.correct === "number" && h.total) bits += " · " + h.correct + "/" + h.total + " aciertos";
+      if (typeof h.usedSec === "number") bits += " · " + formatDuration(h.usedSec);
+      if (h.auto) bits += " · (tiempo agotado)";
+      meta.textContent = bits;
+
+      item.appendChild(main);
+      item.appendChild(meta);
+      list.appendChild(item);
+    });
     box.hidden = false;
   }
 
@@ -663,6 +733,7 @@
     stopTimer();
     exam = null;
     renderBestScore();
+    renderHistory();
     showScreen("screen-home");
   }
 
@@ -685,6 +756,7 @@
 
     $("#btn-retry").addEventListener("click", startExam);
     $("#btn-home").addEventListener("click", goHome);
+    $("#btn-clear-history").addEventListener("click", clearHistory);
 
     $("#btn-study-back").addEventListener("click", goHome);
     $("#btn-study-prev").addEventListener("click", function () {
@@ -747,6 +819,7 @@
         $("#btn-start-exam").disabled = false;
         $("#btn-start-study").disabled = false;
         renderBestScore();
+        renderHistory();
       })
       .catch(function (err) {
         status.classList.add("error");
