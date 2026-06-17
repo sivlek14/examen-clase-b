@@ -21,7 +21,8 @@ sin backend, sin build, sin dependencias externas.
 - Pantalla de resultados: **puntaje X/38**, veredicto **APROBADO** (≥ 33) / **REPROBADO**,
   desglose por categoría y revisión pregunta por pregunta con respuesta correcta y explicación.
 - **Modo estudio** opcional: sin temporizador, feedback inmediato y filtro por categoría.
-- **Referencia al Libro CONASET** en cada pregunta: página y extracto textual que confirma la respuesta (revisión y modo estudio).
+- **Modo «Práctica con pistas»**: como el modo estudio, pero con un **contador de 20 s** visible sobre cada pregunta; al llegar a 0 aparece una **pista** que orienta sin revelar la respuesta y se **descarta una alternativa incorrecta** (50/50). El examen cronometrado y el modo estudio no se modifican.
+- **Referencia al Libro CONASET** en cada pregunta: página y extracto textual que confirma la respuesta (revisión, modo estudio y práctica).
 - Mejor puntaje histórico e **historial de los últimos 10 exámenes** guardados en `localStorage` (con opción de borrar).
 - Mobile-first, responsive, accesible (navegable por teclado, foco visible, `aria-*`).
 
@@ -39,10 +40,10 @@ sin backend, sin build, sin dependencias externas.
 
 ```
 examen-clase-b/
-├── index.html                      # estructura + pantallas (inicio, examen, estudio, resultados)
+├── index.html                      # estructura + pantallas (inicio, examen, estudio, práctica, resultados)
 ├── styles.css                      # estilos mobile-first
-├── app.js                          # lógica del examen
-├── questions.json                  # banco de 167 preguntas (con cita al Libro CONASET)
+├── app.js                          # lógica del examen, estudio y práctica con pistas
+├── questions.json                  # banco de 167 preguntas (con cita al Libro CONASET y pista por pregunta)
 ├── .nojekyll                       # evita el procesamiento Jekyll de GitHub Pages
 ├── .github/workflows/deploy-pages.yml  # despliegue a GitHub Pages (Actions)
 └── README.md
