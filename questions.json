@@ -34,7 +34,8 @@
       "correctIndex": 1,
       "explanation": "Regla general en ciudad para todo vehículo.",
       "bookPage": 96,
-      "bookQuote": "En zonas urbanas, la velocidad máxima permitida es de 50 km/h."
+      "bookQuote": "En zonas urbanas, la velocidad máxima permitida es de 50 km/h.",
+      "hint": "Piensa en el límite general de ciudad para todo vehículo, no en el de carretera ni autopista."
     },
     {
       "id": 2,
@@ -51,7 +52,8 @@
       "correctIndex": 1,
       "explanation": "",
       "bookPage": 97,
-      "bookQuote": "Debes reducir tu velocidad a no más de 30 km/h cuando circules por las afueras de un colegio durante"
+      "bookQuote": "Debes reducir tu velocidad a no más de 30 km/h cuando circules por las afueras de un colegio durante",
+      "hint": "Cerca de niños el límite baja más que en una calle normal: piensa en la cifra más protectora."
     },
     {
       "id": 3,
@@ -68,7 +70,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 96,
-      "bookQuote": "la calzada tiene sólo una pista por sentido, la velocidad máxima permitida a los vehículos livianos es de 100 km/h."
+      "bookQuote": "la calzada tiene sólo una pista por sentido, la velocidad máxima permitida a los vehículos livianos es de 100 km/h.",
+      "hint": "Un camino rural va más rápido que la ciudad, pero queda por debajo de la autopista."
     },
     {
       "id": 4,
@@ -85,7 +88,8 @@
       "correctIndex": 1,
       "explanation": "",
       "bookPage": 96,
-      "bookQuote": "Cuando hay 2 o más pistas en un mismo sentido, este límite aumenta a 120 km/h."
+      "bookQuote": "Cuando hay 2 o más pistas en un mismo sentido, este límite aumenta a 120 km/h.",
+      "hint": "Es la vía más rápida: piensa en el tope general más alto que la ley fija para autos livianos."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 96,
-      "bookQuote": "Las velocidades máximas permitidas varían según se trate de un área urbana o rural, así como también"
+      "bookQuote": "Las velocidades máximas permitidas varían según se trate de un área urbana o rural, así como también",
+      "hint": "Sin disco, no improvisas ni eliges al azar: rige lo que la ley define para ese tipo de camino."
     },
     {
       "id": 6,
@@ -119,7 +124,8 @@
       "correctIndex": 1,
       "explanation": "",
       "bookPage": 96,
-      "bookQuote": "siempre razonable y prudente, esto es, nunca superior a la que puedes mantener el control de tu vehículo"
+      "bookQuote": "siempre razonable y prudente, esto es, nunca superior a la que puedes mantener el control de tu vehículo",
+      "hint": "Los topes legales suponen condiciones normales; descarta el 'siempre' y piensa en cuándo NO rigen."
     },
     {
       "id": 7,
@@ -136,7 +142,8 @@
       "correctIndex": 2,
       "explanation": "",
       "bookPage": 96,
-      "bookQuote": "No obstante, la autoridad puede modificar los límites antes indicados en determinadas vías instalando"
+      "bookQuote": "No obstante, la autoridad puede modificar los límites antes indicados en determinadas vías instalando",
+      "hint": "Es una autoridad local, no la policía ni un particular, y debe respaldarlo con estudio y señales."
     },
     {
       "id": 8,
@@ -153,7 +160,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Ir demasiado lento tampoco es inofensivo: descarta que sea 'lo más seguro' o 'sin consecuencias'."
     },
     {
       "id": 9,
@@ -170,7 +178,8 @@
       "correctIndex": 1,
       "explanation": "",
       "bookPage": 50,
-      "bookQuote": "0,31 - 0,79 gramos por mil de alcohol en la sangre."
+      "bookQuote": "0,31 - 0,79 gramos por mil de alcohol en la sangre.",
+      "hint": "Es el umbral más bajo, el primer escalón antes de hablar de ebriedad; piensa en la cifra mínima, no en las altas."
     },
     {
       "id": 10,
@@ -187,7 +196,8 @@
       "correctIndex": 2,
       "explanation": "",
       "bookPage": 50,
-      "bookQuote": "0,8 o más gramos por mil de alcohol en la sangre."
+      "bookQuote": "0,8 o más gramos por mil de alcohol en la sangre.",
+      "hint": "Es un nivel más alto que el de 'bajo la influencia', pero sin llegar al extremo de 1,0; piensa en el escalón intermedio-alto."
     },
     {
       "id": 11,
@@ -204,7 +214,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "A quien conduce como oficio se le exige el estándar más estricto posible; descarta cualquier cifra que tolere algo de alcohol."
     },
     {
       "id": 12,
@@ -221,7 +232,8 @@
       "correctIndex": 2,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Negarse no es una salida cómoda: la ley lo trata con la máxima severidad y saca conclusiones en tu contra."
     },
     {
       "id": 13,
@@ -238,7 +250,8 @@
       "correctIndex": 1,
       "explanation": "",
       "bookPage": 51,
-      "bookQuote": "conocida como Ley Emilia, sanciona con cárcel efectiva de al menos un año a las personas conductoras, que en estado de ebriedad, generan lesiones gravísimas o la muerte a terceros."
+      "bookQuote": "conocida como Ley Emilia, sanciona con cárcel efectiva de al menos un año a las personas conductoras, que en estado de ebriedad, generan lesiones gravísimas o la muerte a terceros.",
+      "hint": "Recuerda que esta ley se asocia a las consecuencias más graves de un choque; piensa en privación de libertad, no solo en dinero."
     },
     {
       "id": 14,
@@ -255,7 +268,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Abandonar a una víctima nunca te libera: suma una nueva falta y conlleva un deber de detenerte y prestar ayuda."
     },
     {
       "id": 15,
@@ -272,7 +286,8 @@
       "correctIndex": 1,
       "explanation": "",
       "bookPage": 51,
-      "bookQuote": "La única tasa de alcohol segura para conducir es “0”. Si vas a beber, no conduzcas, busca otra alternativa para transportarte."
+      "bookQuote": "La única tasa de alcohol segura para conducir es “0”. Si vas a beber, no conduzcas, busca otra alternativa para transportarte.",
+      "hint": "Lo único realmente seguro es no mezclar volante con alcohol; descarta los 'truquitos' de esperar o tomar agua."
     },
     {
       "id": 16,
@@ -289,7 +304,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 60,
-      "bookQuote": "Algunos medicamentos disminuyen la atención y aumentan el tiempo de reacción al conducir."
+      "bookQuote": "Algunos medicamentos disminuyen la atención y aumentan el tiempo de reacción al conducir.",
+      "hint": "Si un fármaco da sueño, eso altera tu manejo en cualquier vía; descarta los extremos de 'nunca' y 'siempre'."
     },
     {
       "id": 17,
@@ -306,7 +322,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Conducir pasado de copas puede dejarte sin respaldo; piensa que la aseguradora no premia esa conducta."
     },
     {
       "id": 18,
@@ -323,7 +340,8 @@
       "correctIndex": 2,
       "explanation": "",
       "bookPage": 73,
-      "bookQuote": "Se estableció la prohibición del traslado de menores de 12 años en los asientos delanteros de los vehículos, debiendo ser transportados en el asiento trasero (excepto en vehículos de cabina simple)"
+      "bookQuote": "Se estableció la prohibición del traslado de menores de 12 años en los asientos delanteros de los vehículos, debiendo ser transportados en el asiento trasero (excepto en vehículos de cabina simple)",
+      "hint": "No lo confundas con la mayoría de edad ni con el fin de la sillita: piensa en la edad límite para ir siempre detrás."
     },
     {
       "id": 19,
@@ -340,7 +358,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 73,
-      "bookQuote": "y niños de hasta 8 años inclusive (es decir, hasta un día antes de cumplir los 9 años), o de una estatura menor o igual a 135 centímetros y 33 kilogramos de peso, en Sistemas de Retención Infantil."
+      "bookQuote": "y niños de hasta 8 años inclusive (es decir, hasta un día antes de cumplir los 9 años), o de una estatura menor o igual a 135 centímetros y 33 kilogramos de peso, en Sistemas de Retención Infantil.",
+      "hint": "Recuerda que hay dos vías que liberan del sistema: una de edad y otra de talla más peso, lo que ocurra primero."
     },
     {
       "id": 20,
@@ -357,7 +376,8 @@
       "correctIndex": 2,
       "explanation": "",
       "bookPage": 73,
-      "bookQuote": "El incumplimiento de estas medidas es sancionado como una falta gravísima"
+      "bookQuote": "El incumplimiento de estas medidas es sancionado como una falta gravísima",
+      "hint": "Descarta que sea leve o que quede sin sanción; ubícala en el tramo más alto de la escala."
     },
     {
       "id": 21,
@@ -374,7 +394,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Piensa en dónde se concentra el impacto en un choque de frente y para qué tamaño de cuerpo se diseñó el sistema frontal."
     },
     {
       "id": 22,
@@ -391,7 +412,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 73,
-      "bookQuote": "Es tu obligación, como persona conductora, hacer uso de este al momento de transportar a niñas y niños en un automóvil."
+      "bookQuote": "Es tu obligación, como persona conductora, hacer uso de este al momento de transportar a niñas y niños en un automóvil.",
+      "hint": "No es Carabineros ni quien fabrica la silla; recae en una persona del propio vehículo, aunque no sea el padre o la madre."
     },
     {
       "id": 23,
@@ -408,7 +430,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 73,
-      "bookQuote": "Se estableció la prohibición del traslado de menores de 12 años en los asientos delanteros de los vehículos, debiendo ser transportados en el asiento trasero"
+      "bookQuote": "Se estableció la prohibición del traslado de menores de 12 años en los asientos delanteros de los vehículos, debiendo ser transportados en el asiento trasero",
+      "hint": "Superar la talla solo libera de la sillita; la obligación de ir detrás depende de la edad, no de los centímetros."
     },
     {
       "id": 24,
@@ -425,7 +448,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Su forma de 8 lados es unica justamente porque exige lo maximo: no basta con frenar un poco."
     },
     {
       "id": 25,
@@ -442,7 +466,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "El triangulo invertido no siempre obliga a frenar del todo: piensa en quien tiene preferencia."
     },
     {
       "id": 26,
@@ -459,7 +484,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 81,
-      "bookQuote": "Estas tienen forma de rombo, su color de fondo es amarillo y su símbolo es negro."
+      "bookQuote": "Estas tienen forma de rombo, su color de fondo es amarillo y su símbolo es negro.",
+      "hint": "El rombo amarillo no manda ni prohibe: te previene de algo que viene mas adelante."
     },
     {
       "id": 27,
@@ -476,7 +502,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 80,
-      "bookQuote": "Señales reglamentarias: tienen por finalidad notificar a las personas usuarias de la vía acerca de prio-"
+      "bookQuote": "Señales reglamentarias: tienen por finalidad notificar a las personas usuarias de la vía acerca de prio-",
+      "hint": "Piensa en las normas que mandan o prohiben y son de cumplimiento forzoso, no en las que solo orientan."
     },
     {
       "id": 28,
@@ -493,7 +520,8 @@
       "correctIndex": 2,
       "explanation": "",
       "bookPage": 81,
-      "bookQuote": "Señales informativas: tienen como propósito orientar y guiar a quienes conducen, para que puedan"
+      "bookQuote": "Señales informativas: tienen como propósito orientar y guiar a quienes conducen, para que puedan",
+      "hint": "El verde no advierte ni prohibe: piensa en lo que te orienta hacia ciudades y servicios."
     },
     {
       "id": 29,
@@ -510,7 +538,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 81,
-      "bookQuote": "debes evitar los adelantamientos una vez pasada la señal y tomar las precauciones del caso, ya sea reduciendo la velocidad"
+      "bookQuote": "debes evitar los adelantamientos una vez pasada la señal y tomar las precauciones del caso, ya sea reduciendo la velocidad",
+      "hint": "Ante peligro anunciado no se hacen maniobras: baja el ritmo y no abandones tu trayectoria."
     },
     {
       "id": 30,
@@ -527,7 +556,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 82,
-      "bookQuote": "e indican que no existen condiciones de seguridad para que pueda ser traspasada."
+      "bookQuote": "e indican que no existen condiciones de seguridad para que pueda ser traspasada.",
+      "hint": "Una línea sin cortes marca una barrera firme: piensa qué maniobra impide hacia el carril contrario."
     },
     {
       "id": 31,
@@ -544,7 +574,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 82,
-      "bookQuote": "Puedes traspasar estas líneas y cambiar de pista advirtiendo previamente a las y los demás usuarios de la vía tu intención de hacerlo"
+      "bookQuote": "Puedes traspasar estas líneas y cambiar de pista advirtiendo previamente a las y los demás usuarios de la vía tu intención de hacerlo",
+      "hint": "Si la línea tiene cortes o espacios, la regla se relaja: ¿qué permite hacer cuando es seguro?"
     },
     {
       "id": 32,
@@ -561,7 +592,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Asocia el color amarillo con la separación de tránsitos que vienen en direcciones contrarias."
     },
     {
       "id": 33,
@@ -578,7 +610,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 83,
-      "bookQuote": "En un paso de cebra, las y los peatones tienen prioridad."
+      "bookQuote": "En un paso de cebra, las y los peatones tienen prioridad.",
+      "hint": "Esas franjas anchas son territorio del que cruza a pie: piensa quién tiene la preferencia ahí."
     },
     {
       "id": 34,
@@ -595,7 +628,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 84,
-      "bookQuote": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha."
+      "bookQuote": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha.",
+      "hint": "No depende de velocidad ni tamaño: hay una regla fija segun el lado por donde te llega el otro vehiculo."
     },
     {
       "id": 35,
@@ -612,7 +646,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 84,
-      "bookQuote": "Al enfrentar la señal PARE debes detener tu vehículo y permitir el paso de quienes circulan por la otra vía."
+      "bookQuote": "Al enfrentar la señal PARE debes detener tu vehículo y permitir el paso de quienes circulan por la otra vía.",
+      "hint": "Esa senal exige algo mas que aminorar la marcha: piensa en una pausa completa antes de seguir."
     },
     {
       "id": 36,
@@ -629,7 +664,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 85,
-      "bookQuote": "Al aproximarte a un paso de cebra en el que alguien se disponga a cruzar, debes detenerte y cederle el paso."
+      "bookQuote": "Al aproximarte a un paso de cebra en el que alguien se disponga a cruzar, debes detenerte y cederle el paso.",
+      "hint": "En el cruce habilitado el actor mas vulnerable manda; pregunta quien debe esperar a quien."
     },
     {
       "id": 37,
@@ -646,7 +682,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 94,
-      "bookQuote": "Al llegar a la rotonda, tienes la obligación de ceder el paso a los vehículos que circulan en ella."
+      "bookQuote": "Al llegar a la rotonda, tienes la obligación de ceder el paso a los vehículos que circulan en ella.",
+      "hint": "Quien aun no entra al anillo no impone su ritmo: piensa en quien ya esta dando la vuelta."
     },
     {
       "id": 38,
@@ -663,7 +700,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 91,
-      "bookQuote": "Debes señalizar tu intención de virar con una anticipación suficiente: a lo menos 30 metros antes."
+      "bookQuote": "Debes señalizar tu intención de virar con una anticipación suficiente: a lo menos 30 metros antes.",
+      "hint": "Antes de girar todo se trata de anticipacion: avisar a tiempo y prepararse, no improvisar."
     },
     {
       "id": 39,
@@ -680,7 +718,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Cuando una persona dirige el tránsito, sus indicaciones tienen jerarquía por sobre lo que muestre el dispositivo luminoso."
     },
     {
       "id": 40,
@@ -697,7 +736,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Es la fase de transición entre verde y rojo; piensa qué te anticipa, no es invitación a apurarte."
     },
     {
       "id": 41,
@@ -714,7 +754,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "La obligación de la luz roja no depende de si hay o no otros vehículos circulando."
     },
     {
       "id": 42,
@@ -731,7 +772,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 85,
-      "bookQuote": "hacia un lado en la calzada y deteniéndote si es necesario hasta que haya pasado"
+      "bookQuote": "hacia un lado en la calzada y deteniéndote si es necesario hasta que haya pasado",
+      "hint": "Estos vehículos tienen prioridad: piensa hacia qué costado debes despejar la pista para liberar su camino."
     },
     {
       "id": 43,
@@ -748,7 +790,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Sirve para registrar tu solicitud como peatón; descarta las opciones que nada tienen que ver con cruzar."
     },
     {
       "id": 44,
@@ -765,7 +808,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 103,
-      "bookQuote": "Los adelantamientos deben efectuarse siempre por la izquierda."
+      "bookQuote": "Los adelantamientos deben efectuarse siempre por la izquierda.",
+      "hint": "Piensa en el lado por donde se rebasa normalmente y recuerda que nunca es incondicional: depende de las condiciones del momento."
     },
     {
       "id": 45,
@@ -782,7 +826,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 103,
-      "bookQuote": "Te aproximes a la cima de una cuesta o gradiente, o a una curva."
+      "bookQuote": "Te aproximes a la cima de una cuesta o gradiente, o a una curva.",
+      "hint": "Descarta las situaciones despejadas: el riesgo aparece cuando no puedes ver lo que viene de frente o la marca del pavimento te lo prohíbe."
     },
     {
       "id": 46,
@@ -799,7 +844,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 103,
-      "bookQuote": "No dispongas de un espacio libre hacia delante, que te permita efectuar la maniobra con seguridad y sin interferir con vehículos que se aproximan en sentido contrario."
+      "bookQuote": "No dispongas de un espacio libre hacia delante, que te permita efectuar la maniobra con seguridad y sin interferir con vehículos que se aproximan en sentido contrario.",
+      "hint": "Una maniobra segura combina mirar y avisar; no basta con un solo gesto ni con apurarse a ciegas."
     },
     {
       "id": 47,
@@ -816,7 +862,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 102,
-      "bookQuote": "No aumentes tu velocidad."
+      "bookQuote": "No aumentes tu velocidad.",
+      "hint": "Tu deber es colaborar, no entorpecer: descarta cualquier reacción brusca o competitiva."
     },
     {
       "id": 48,
@@ -833,7 +880,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 104,
-      "bookQuote": "En aceras, pasos de peatones o lugares destinados sólo al tránsito de los mismos."
+      "bookQuote": "En aceras, pasos de peatones o lugares destinados sólo al tránsito de los mismos.",
+      "hint": "Piensa en los puntos que bloquean a peatones, intersecciones o accesos de emergencia, no en cualquier calle."
     },
     {
       "id": 49,
@@ -850,7 +898,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 104,
-      "bookQuote": "orientadas hacia el interior de la calzada. En cambio, si estás estacionado en bajada, deja las ruedas orientadas hacia la cuneta."
+      "bookQuote": "orientadas hacia el interior de la calzada. En cambio, si estás estacionado en bajada, deja las ruedas orientadas hacia la cuneta.",
+      "hint": "Si el freno fallara en subida, conviene que el auto ruede hacia el borde y no hacia el centro de la vía."
     },
     {
       "id": 50,
@@ -867,7 +916,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 104,
-      "bookQuote": "Lugares donde está prohibido estacionar y detenerse: Donde las señales oficiales lo prohíban. En aceras, pasos de peatones o lugares destinados sólo al tránsito de los mismos."
+      "bookQuote": "Lugares donde está prohibido estacionar y detenerse: Donde las señales oficiales lo prohíban. En aceras, pasos de peatones o lugares destinados sólo al tránsito de los mismos.",
+      "hint": "Recuerda quién tiene prioridad en esa franja rayada y por qué no debe bloquearse."
     },
     {
       "id": 51,
@@ -884,7 +934,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 26,
-      "bookQuote": "Todas las personas que viajan en el automóvil deben ir bien sujetas, incluso aquellas que viajen en los asientos traseros."
+      "bookQuote": "Todas las personas que viajan en el automóvil deben ir bien sujetas, incluso aquellas que viajen en los asientos traseros.",
+      "hint": "La obligación no distingue entre quién maneja y quién acompaña, ni si va delante o detrás: piensa en cada persona a bordo."
     },
     {
       "id": 52,
@@ -901,7 +952,8 @@
       "correctIndex": 1,
       "explanation": "",
       "bookPage": 30,
-      "bookQuote": "Este elemento de seguridad pasiva, permite proteger a las personas ocupantes del vehículo de las siguientes formas:"
+      "bookQuote": "Este elemento de seguridad pasiva, permite proteger a las personas ocupantes del vehículo de las siguientes formas:",
+      "hint": "Distingue lo que evita el choque de lo que solo te protege cuando ya ocurre; el airbag actúa en el segundo grupo."
     },
     {
       "id": 53,
@@ -918,7 +970,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 26,
-      "bookQuote": "Son los sistemas que sirven para prevenir la ocurrencia de un siniestro de tránsito."
+      "bookQuote": "Son los sistemas que sirven para prevenir la ocurrencia de un siniestro de tránsito.",
+      "hint": "Pregúntate si este sistema ayuda a impedir que el accidente suceda o solo amortigua sus consecuencias."
     },
     {
       "id": 54,
@@ -935,7 +988,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 31,
-      "bookQuote": "La forma de prevenir este efecto y las lesiones cervicales asociadas, es usando los apoya cabezas."
+      "bookQuote": "La forma de prevenir este efecto y las lesiones cervicales asociadas, es usando los apoya cabezas.",
+      "hint": "No es solo comodidad: piensa en proteger el cuello, sobre todo cuando te chocan por detrás."
     },
     {
       "id": 55,
@@ -952,7 +1006,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 23,
-      "bookQuote": "La distancia de detención (S) es la suma de la distancia de reacción (R) y la distancia de frenado (F)."
+      "bookQuote": "La distancia de detención (S) es la suma de la distancia de reacción (R) y la distancia de frenado (F).",
+      "hint": "Detenerse no es instantáneo: primero el conductor percibe y luego el auto frena. Suma esas dos fases."
     },
     {
       "id": 56,
@@ -969,7 +1024,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 24,
-      "bookQuote": "Así, si duplicas la velocidad, la distancia de frenado aumenta cuatro veces"
+      "bookQuote": "Así, si duplicas la velocidad, la distancia de frenado aumenta cuatro veces",
+      "hint": "A más rapidez, más metros recorres antes de parar; descarta que se reduzca o desaparezca."
     },
     {
       "id": 57,
@@ -986,7 +1042,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 98,
-      "bookQuote": "la distancia de frenado es significativamente mayor que en una carretera asfaltada. El asfalto mojado es más resbaladizo que el seco."
+      "bookQuote": "la distancia de frenado es significativamente mayor que en una carretera asfaltada. El asfalto mojado es más resbaladizo que el seco.",
+      "hint": "Con menos agarre de los neumáticos cuesta más detenerse; piensa hacia dónde se mueve esa distancia."
     },
     {
       "id": 58,
@@ -1003,7 +1060,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 23,
-      "bookQuote": "Esta, depende del tiempo de reacción de la persona y de la velocidad a la que circula."
+      "bookQuote": "Esta, depende del tiempo de reacción de la persona y de la velocidad a la que circula.",
+      "hint": "Es el tramo del 'percibir y decidir' del conductor; descarta factores ajenos como color o marca."
     },
     {
       "id": 59,
@@ -1020,7 +1078,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 71,
-      "bookQuote": "Al pasar con tu vehículo cerca de una persona ciclista, la normativa indica que debes dejar un espacio lateral de al menos 1,5 metros"
+      "bookQuote": "Al pasar con tu vehículo cerca de una persona ciclista, la normativa indica que debes dejar un espacio lateral de al menos 1,5 metros",
+      "hint": "Piensa en el ciclista como un usuario legítimo de la vía, no como un estorbo: descarta toda conducta agresiva o intimidante."
     },
     {
       "id": 60,
@@ -1037,7 +1096,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 34,
-      "bookQuote": "Para que el tránsito sea ordenado, seguro y no se produzcan siniestros, existen reglas que se deben cumplir y que se apoyan en una serie de principios como el de la confianza."
+      "bookQuote": "Para que el tránsito sea ordenado, seguro y no se produzcan siniestros, existen reglas que se deben cumplir y que se apoyan en una serie de principios como el de la confianza.",
+      "hint": "La buena convivencia no premia al más fuerte ni al más veloz; apunta a un valor compartido entre todos por igual."
     },
     {
       "id": 61,
@@ -1054,7 +1114,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 69,
-      "bookQuote": "Maneja con cuidado y demuestra consideración hacia las personas mayores o en situación de discapacidad."
+      "bookQuote": "Maneja con cuidado y demuestra consideración hacia las personas mayores o en situación de discapacidad.",
+      "hint": "Ante quien tiene menos capacidad de reacción, ¿conviene apurarlo o redoblar el cuidado y darle prioridad?"
     },
     {
       "id": 62,
@@ -1071,7 +1132,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Una bici no va a contramano ni invade el centro; recuerda por qué costado y en qué sentido acompaña al flujo vehicular."
     },
     {
       "id": 63,
@@ -1088,7 +1150,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 120,
-      "bookQuote": "Disminuye la velocidad ante las primeras señales de agua en el camino."
+      "bookQuote": "Disminuye la velocidad ante las primeras señales de agua en el camino.",
+      "hint": "Con menos adherencia y peor visibilidad, piensa en ir más despacio y dejar más espacio, no en apurarte."
     },
     {
       "id": 64,
@@ -1105,7 +1168,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 125,
-      "bookQuote": "Mantén encendidas tus luces bajas. Estas, al proyectarse directamente hacia el suelo se ven más y mejor."
+      "bookQuote": "Mantén encendidas tus luces bajas. Estas, al proyectarse directamente hacia el suelo se ven más y mejor.",
+      "hint": "Las luces altas rebotan en la niebla y te enceguecen; piensa qué iluminación baja conviene."
     },
     {
       "id": 65,
@@ -1122,7 +1186,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 121,
-      "bookQuote": "para evitar el “aquaplaning”, el mejor consejo es moderar la velocidad, de modo que los neumáticos puedan desalojar bien el agua y pisar la superficie de la calzada. Además, es recomendable no frenar ni acelerar innecesariamente."
+      "bookQuote": "para evitar el “aquaplaning”, el mejor consejo es moderar la velocidad, de modo que los neumáticos puedan desalojar bien el agua y pisar la superficie de la calzada. Además, es recomendable no frenar ni acelerar innecesariamente.",
+      "hint": "Sin agarre, cualquier maniobra brusca te descontrola: lo clave es recuperar tracción con suavidad."
     },
     {
       "id": 66,
@@ -1139,7 +1204,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 109,
-      "bookQuote": "Para prevenir siniestros, aumenta la distancia entre tu vehículo y los que te anteceden."
+      "bookQuote": "Para prevenir siniestros, aumenta la distancia entre tu vehículo y los que te anteceden.",
+      "hint": "De noche ves menos y reaccionas más tarde, así que el manejo no puede ser igual que de día."
     },
     {
       "id": 67,
@@ -1156,7 +1222,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 139,
-      "bookQuote": "El seguro obligatorio cubre los riesgos de muerte y lesiones corporales que sufra la persona conductora del vehículo, las personas transportadas en él o cualquier tercero afectado"
+      "bookQuote": "El seguro obligatorio cubre los riesgos de muerte y lesiones corporales que sufra la persona conductora del vehículo, las personas transportadas en él o cualquier tercero afectado",
+      "hint": "Piensa en qué protege: a las personas lesionadas en un siniestro, no al auto ni a un trámite municipal."
     },
     {
       "id": 68,
@@ -1173,7 +1240,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 139,
-      "bookQuote": "Los vehículos motorizados no pueden circular sin su placa patente, el permiso de circulación otorgado por la respectiva Municipalidad y el certificado de un Seguro Obligatorio de Accidentes Personales."
+      "bookQuote": "Los vehículos motorizados no pueden circular sin su placa patente, el permiso de circulación otorgado por la respectiva Municipalidad y el certificado de un Seguro Obligatorio de Accidentes Personales.",
+      "hint": "No basta con uno solo; recuerda el conjunto de documentos vehiculares que se exigen juntos."
     },
     {
       "id": 69,
@@ -1190,7 +1258,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 139,
-      "bookQuote": "La revisión técnica es como el examen médico de tu vehículo. Comprende, entre otros, un chequeo de los sistemas de dirección, frenos, luces, neumáticos y combustión interna."
+      "bookQuote": "La revisión técnica es como el examen médico de tu vehículo. Comprende, entre otros, un chequeo de los sistemas de dirección, frenos, luces, neumáticos y combustión interna.",
+      "hint": "Apunta al estado físico y funcionamiento del auto para transitar, no a su precio ni a su identidad comercial."
     },
     {
       "id": 70,
@@ -1207,7 +1276,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Piensa en vehículos livianos de uso particular; descarta los profesionales como buses, camiones y motos."
     },
     {
       "id": 71,
@@ -1224,7 +1294,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 22,
-      "bookQuote": "Neumáticos Desempañador luneta trasera Luces Frenos Espejos Puertas Bocina"
+      "bookQuote": "Neumáticos Desempañador luneta trasera Luces Frenos Espejos Puertas Bocina",
+      "hint": "Piensa en una revisión amplia de varios sistemas clave, no en un solo detalle ni en algo irrelevante."
     },
     {
       "id": 72,
@@ -1241,7 +1312,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 20,
-      "bookQuote": "Las luces intermitentes de advertencia de peligro sólo deben utilizarse cuando el vehículo se encuentra detenido a consecuencia de una falla o avería"
+      "bookQuote": "Las luces intermitentes de advertencia de peligro sólo deben utilizarse cuando el vehículo se encuentra detenido a consecuencia de una falla o avería",
+      "hint": "Asócialas con peligro o un problema, nunca con cortesía ni con ir más rápido."
     },
     {
       "id": 73,
@@ -1258,7 +1330,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 13,
-      "bookQuote": "la temperatura del motor se eleva. Si esto sucede, debes detener la marcha y reparar la avería."
+      "bookQuote": "la temperatura del motor se eleva. Si esto sucede, debes detener la marcha y reparar la avería.",
+      "hint": "Una luz roja del motor exige acción inmediata; ni ignorarla ni forzar la marcha."
     },
     {
       "id": 74,
@@ -1275,7 +1348,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 110,
-      "bookQuote": "luces bajas en las vías urbanas y luces altas en los caminos y vías rurales."
+      "bookQuote": "luces bajas en las vías urbanas y luces altas en los caminos y vías rurales.",
+      "hint": "Recuerda cuál de los dos haces molesta la vista de los demás en la ciudad."
     },
     {
       "id": 75,
@@ -1292,7 +1366,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 18,
-      "bookQuote": "empeora la fricción con el pavimento mojado, aumentando el riesgo de que se pierda el contacto con el pavimento"
+      "bookQuote": "empeora la fricción con el pavimento mojado, aumentando el riesgo de que se pierda el contacto con el pavimento",
+      "hint": "Sin dibujo el agarre cae, sobre todo con piso húmedo: ¿qué conviene hacer?"
     },
     {
       "id": 76,
@@ -1309,7 +1384,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 96,
-      "bookQuote": "Cuando la visibilidad esté reducida por mal tiempo o escasa iluminación."
+      "bookQuote": "Cuando la visibilidad esté reducida por mal tiempo o escasa iluminación.",
+      "hint": "Con poca luz tu campo visual y tiempo de reacción caen; adapta tu marcha a lo que realmente alcanzas a ver."
     },
     {
       "id": 77,
@@ -1326,7 +1402,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 97,
-      "bookQuote": "detenido para tomar o dejar pasajeros. En este último caso, debes detenerse si es necesario."
+      "bookQuote": "detenido para tomar o dejar pasajeros. En este último caso, debes detenerse si es necesario.",
+      "hint": "Esas luces avisan que pueden bajar o cruzar niños; piensa qué exige proteger a un peatón vulnerable."
     },
     {
       "id": 78,
@@ -1343,7 +1420,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": 66,
-      "bookQuote": "Si sientes cansancio o sueño al ir conduciendo, lo mejor es que te detengas a descansar en un lugar adecuado y dormir"
+      "bookQuote": "Si sientes cansancio o sueño al ir conduciendo, lo mejor es que te detengas a descansar en un lugar adecuado y dormir",
+      "hint": "Ningún truco (cafeína, música o prisa) repone el sueño real; piensa qué es lo único que recupera tus reflejos."
     },
     {
       "id": 79,
@@ -1360,7 +1438,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Si ya estás dentro de la intersección, detenerte o devolverte ahí es lo más riesgoso; lo prudente es despejar el cruce."
     },
     {
       "id": 80,
@@ -1377,7 +1456,8 @@
       "correctIndex": 0,
       "explanation": "",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Descarta toda maniobra ilegal o peligrosa y piensa quién tiene la facultad de regular el tránsito en ese momento."
     },
     {
       "id": 81,
@@ -1394,7 +1474,8 @@
       "correctIndex": 1,
       "explanation": "En zona urbana el límite general es 50 km/h (Ley 18.290), independiente del número de pistas.",
       "bookPage": 96,
-      "bookQuote": "En zonas urbanas, la velocidad máxima permitida es de 50 km/h."
+      "bookQuote": "En zonas urbanas, la velocidad máxima permitida es de 50 km/h.",
+      "hint": "El número de pistas no cambia nada: piensa en el tope general urbano, no en flujo ni carretera."
     },
     {
       "id": 82,
@@ -1411,7 +1492,8 @@
       "correctIndex": 2,
       "explanation": "El límite urbano es 50 km/h aunque la vía tenga varias pistas. El ancho de la calle no cambia la norma.",
       "bookPage": 96,
-      "bookQuote": "En zonas urbanas, la velocidad máxima permitida es de 50 km/h."
+      "bookQuote": "En zonas urbanas, la velocidad máxima permitida es de 50 km/h.",
+      "hint": "Que la avenida sea ancha o tenga muchas pistas no altera la norma de ciudad."
     },
     {
       "id": 83,
@@ -1428,7 +1510,8 @@
       "correctIndex": 2,
       "explanation": "En zonas de escuela la velocidad se reduce a 30 km/h en horarios de entrada y salida, para proteger a los peatones más vulnerables.",
       "bookPage": 97,
-      "bookQuote": "Debes reducir tu velocidad a no más de 30 km/h cuando circules por las afueras de un colegio durante"
+      "bookQuote": "Debes reducir tu velocidad a no más de 30 km/h cuando circules por las afueras de un colegio durante",
+      "hint": "Frente a escolares el límite cae bajo el urbano normal: busca la cifra más baja y protectora."
     },
     {
       "id": 84,
@@ -1445,7 +1528,8 @@
       "correctIndex": 1,
       "explanation": "En caminos rurales de una pista por sentido, el máximo para vehículos livianos es 100 km/h.",
       "bookPage": 96,
-      "bookQuote": "la calzada tiene sólo una pista por sentido, la velocidad máxima permitida a los vehículos livianos es de 100 km/h."
+      "bookQuote": "la calzada tiene sólo una pista por sentido, la velocidad máxima permitida a los vehículos livianos es de 100 km/h.",
+      "hint": "Rural de una pista por sentido: por encima del valor de ciudad, pero sin llegar al de autopista."
     },
     {
       "id": 85,
@@ -1462,7 +1546,8 @@
       "correctIndex": 2,
       "explanation": "En autopistas de doble calzada, el límite para vehículos livianos es 120 km/h (salvo señalización menor).",
       "bookPage": 96,
-      "bookQuote": "Cuando hay 2 o más pistas en un mismo sentido, este límite aumenta a 120 km/h."
+      "bookQuote": "Cuando hay 2 o más pistas en un mismo sentido, este límite aumenta a 120 km/h.",
+      "hint": "Doble calzada es lo más veloz: piensa en el máximo general para vehículos livianos."
     },
     {
       "id": 86,
@@ -1479,7 +1564,8 @@
       "correctIndex": 1,
       "explanation": "La señalización prevalece sobre la regla general. Si el disco dice 80, el límite es 80.",
       "bookPage": 96,
-      "bookQuote": "la autoridad puede modificar los límites antes indicados en determinadas vías instalando"
+      "bookQuote": "la autoridad puede modificar los límites antes indicados en determinadas vías instalando",
+      "hint": "Un disco manda sobre la regla general: ni promedies ni esperes a ver fiscalización."
     },
     {
       "id": 87,
@@ -1496,7 +1582,8 @@
       "correctIndex": 1,
       "explanation": "A mayor velocidad, mayor letalidad: la probabilidad de muerte del peatón se multiplica varias veces al subir de 30 a 50 km/h. Por eso el límite urbano es 50 y el escolar 30.",
       "bookPage": 8,
-      "bookQuote": "La probabilidad de que un peatón muera atropellado se multiplica por ocho cuando la velocidad del vehículo sube de 30 a 50 km/h."
+      "bookQuote": "La probabilidad de que un peatón muera atropellado se multiplica por ocho cuando la velocidad del vehículo sube de 30 a 50 km/h.",
+      "hint": "A más velocidad, más letalidad: compara qué le pasa al peatón al subir de 30 a 50."
     },
     {
       "id": 88,
@@ -1513,7 +1600,8 @@
       "correctIndex": 1,
       "explanation": "El exceso de velocidad es una de las principales causas de siniestros con resultado de muerte.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Descarta que sea menor o irrelevante: en las cifras de muertes pesa mucho más de lo que crees."
     },
     {
       "id": 89,
@@ -1530,7 +1618,8 @@
       "correctIndex": 1,
       "explanation": "Entre 0,3 y 0,79 g/L se está bajo la influencia del alcohol (Ley Tolerancia Cero).",
       "bookPage": 50,
-      "bookQuote": "0,31 - 0,79 gramos por mil de alcohol en la sangre."
+      "bookQuote": "0,31 - 0,79 gramos por mil de alcohol en la sangre.",
+      "hint": "Con 0,5 estás por sobre el mínimo de 0,3 pero aún bajo el 0,8 de ebriedad; ubícalo en la franja intermedia."
     },
     {
       "id": 90,
@@ -1547,7 +1636,8 @@
       "correctIndex": 2,
       "explanation": "Desde 0,8 g/L se configura el estado de ebriedad.",
       "bookPage": 50,
-      "bookQuote": "0,8 o más gramos por mil de alcohol en la sangre."
+      "bookQuote": "0,8 o más gramos por mil de alcohol en la sangre.",
+      "hint": "Es la misma cifra que marca el inicio de la ebriedad: más alta que 0,5 pero sin llegar a 1,0."
     },
     {
       "id": 91,
@@ -1564,7 +1654,8 @@
       "correctIndex": 1,
       "explanation": "Tolerancia Cero (20.580) regula límites y suspensión aunque no haya accidente; Emilia (20.770) añade cárcel efectiva cuando el conductor ebrio causa lesiones gravísimas o muerte.",
       "bookPage": 51,
-      "bookQuote": "Una modificación legal en el año 2014, conocida como Ley Emilia, sanciona con cárcel efectiva de al menos un año a las personas conductoras, que en estado de ebriedad, generan lesiones gravísimas o la muerte a terceros."
+      "bookQuote": "Una modificación legal en el año 2014, conocida como Ley Emilia, sanciona con cárcel efectiva de al menos un año a las personas conductoras, que en estado de ebriedad, generan lesiones gravísimas o la muerte a terceros.",
+      "hint": "Una ley fija los límites y suspende; la otra entra a actuar recién cuando hay víctimas graves o fallecidos."
     },
     {
       "id": 92,
@@ -1581,7 +1672,8 @@
       "correctIndex": 2,
       "explanation": "La Ley Emilia contempla cárcel efectiva mínima de 1 año, inhabilidad perpetua para conducir y comiso del vehículo.",
       "bookPage": 51,
-      "bookQuote": "Ley Emilia, sanciona con cárcel efectiva de al menos un año a las personas conductoras, que en estado de ebriedad, generan lesiones gravísimas o la muerte a terceros."
+      "bookQuote": "Ley Emilia, sanciona con cárcel efectiva de al menos un año a las personas conductoras, que en estado de ebriedad, generan lesiones gravísimas o la muerte a terceros.",
+      "hint": "Con un muerto de por medio, piensa en la respuesta más dura y completa: libertad, habilitación para manejar y el auto."
     },
     {
       "id": 93,
@@ -1598,7 +1690,8 @@
       "correctIndex": 1,
       "explanation": "Negarse al alcotest es delito: se presume el estado de ebriedad y se aplica pena máxima.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Negarte no te salva: la ley asume lo peor y aplica el castigo más alto posible."
     },
     {
       "id": 94,
@@ -1615,7 +1708,8 @@
       "correctIndex": 1,
       "explanation": "La fatiga y el sueño disminuyen los reflejos y aumentan el tiempo de reacción, igual que el alcohol o las drogas.",
       "bookPage": 62,
-      "bookQuote": "Aumenta el tiempo de reacción. Esto explica siniestros como colisiones por alcance"
+      "bookQuote": "Aumenta el tiempo de reacción. Esto explica siniestros como colisiones por alcance",
+      "hint": "La fatiga golpea tus reflejos igual que el alcohol, sea de día o de noche y vayas rápido o lento."
     },
     {
       "id": 95,
@@ -1632,7 +1726,8 @@
       "correctIndex": 1,
       "explanation": "Descansar y detenerse a descansar periódicamente previene la fatiga. Las comidas pesadas y el exceso de calor favorecen la somnolencia.",
       "bookPage": 66,
-      "bookQuote": "En viajes largos, descansa al menos 20 a 30 minutos cada 2 horas o 200 kilómetros de conducción, como máximo."
+      "bookQuote": "En viajes largos, descansa al menos 20 a 30 minutos cada 2 horas o 200 kilómetros de conducción, como máximo.",
+      "hint": "Lo pesado de comer y el exceso de calor dan sueño; piensa qué hábito de cuerpo y paradas previene la somnolencia."
     },
     {
       "id": 96,
@@ -1649,7 +1744,8 @@
       "correctIndex": 1,
       "explanation": "Los medicamentos pueden afectar la conducción; si producen somnolencia u otros efectos, no se debe conducir.",
       "bookPage": 60,
-      "bookQuote": "en caso de que estés tomando alguno, es importante que consultes a un profesional sobre los efectos que podría ocasionarte."
+      "bookQuote": "en caso de que estés tomando alguno, es importante que consultes a un profesional sobre los efectos que podría ocasionarte.",
+      "hint": "Lo prudente es informarte y abstenerte si tus capacidades se ven afectadas; descarta cualquier opción temeraria."
     },
     {
       "id": 97,
@@ -1666,7 +1762,8 @@
       "correctIndex": 1,
       "explanation": "Manipular el celular desvía la vista varios segundos y produce pérdida de reflejos similar a conducir habiendo bebido.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Mirar la pantalla aparta tu vista varios segundos; piensa qué sustancia legal produce una pérdida de reflejos parecida."
     },
     {
       "id": 98,
@@ -1683,7 +1780,8 @@
       "correctIndex": 1,
       "explanation": "Hasta los 9 años (o 135 cm y 33 kg) debe ir en SRI, y los menores de 12 siempre atrás.",
       "bookPage": 73,
-      "bookQuote": "niñas y niños deben ir siempre en su Sistema de Retención Infantil, el dispositivo de seguridad diseñado para su traslado al interior de un vehículo"
+      "bookQuote": "niñas y niños deben ir siempre en su Sistema de Retención Infantil, el dispositivo de seguridad diseñado para su traslado al interior de un vehículo",
+      "hint": "A esa edad aún aplican las dos reglas: ubicación detrás y un dispositivo acorde a su tamaño, no el cinturón de adulto."
     },
     {
       "id": 99,
@@ -1700,7 +1798,8 @@
       "correctIndex": 1,
       "explanation": "La ley exige SRI hasta cumplir 9 años, salvo que antes alcancen 135 cm y 33 kg.",
       "bookPage": 73,
-      "bookQuote": "y niños de hasta 8 años inclusive (es decir, hasta un día antes de cumplir los 9 años), o de una estatura menor o igual a 135 centímetros y 33 kilogramos de peso, en Sistemas de Retención Infantil."
+      "bookQuote": "y niños de hasta 8 años inclusive (es decir, hasta un día antes de cumplir los 9 años), o de una estatura menor o igual a 135 centímetros y 33 kilogramos de peso, en Sistemas de Retención Infantil.",
+      "hint": "Coincide con la regla general del sistema: una edad tope, salvo que antes se alcance cierta talla y peso."
     },
     {
       "id": 100,
@@ -1717,7 +1816,8 @@
       "correctIndex": 2,
       "explanation": "Los menores deben ir atrás hasta los 12 años.",
       "bookPage": 73,
-      "bookQuote": "Se estableció la prohibición del traslado de menores de 12 años en los asientos delanteros de los vehículos, debiendo ser transportados en el asiento trasero"
+      "bookQuote": "Se estableció la prohibición del traslado de menores de 12 años en los asientos delanteros de los vehículos, debiendo ser transportados en el asiento trasero",
+      "hint": "Apunta a la edad en que termina la obligación de ir siempre atrás, no a la de dejar la sillita."
     },
     {
       "id": 101,
@@ -1734,7 +1834,8 @@
       "correctIndex": 1,
       "explanation": "Es falta gravísima: multa 1,5 a 3 UTM y suspensión de licencia de 5 a 45 días.",
       "bookPage": 73,
-      "bookQuote": "El incumplimiento de estas medidas es sancionado como una falta gravísima y la multa es de 1,5 a 3 UTM y la suspensión de la Licencia de Conducir de 5 a 45 días."
+      "bookQuote": "El incumplimiento de estas medidas es sancionado como una falta gravísima y la multa es de 1,5 a 3 UTM y la suspensión de la Licencia de Conducir de 5 a 45 días.",
+      "hint": "No es leve ni una simple recomendación; está en el escalón más severo, con multa y suspensión."
     },
     {
       "id": 102,
@@ -1751,7 +1852,8 @@
       "correctIndex": 2,
       "explanation": "Es obligatorio para todos los ocupantes; no debe iniciarse la marcha si alguno no lo lleva puesto correctamente.",
       "bookPage": 26,
-      "bookQuote": "Todas las personas que viajan en el automóvil deben ir bien sujetas, incluso aquellas que viajen en los asientos traseros."
+      "bookQuote": "Todas las personas que viajan en el automóvil deben ir bien sujetas, incluso aquellas que viajen en los asientos traseros.",
+      "hint": "La regla cubre cada asiento ocupado, sin importar la posición ni si vas por ciudad o ruta; no basta con el que maneja."
     },
     {
       "id": 103,
@@ -1768,7 +1870,8 @@
       "correctIndex": 1,
       "explanation": "El airbag está calibrado para un adulto y su despliegue puede causar lesiones graves a un niño.",
       "bookPage": 30,
-      "bookQuote": "Nunca debes poner un Sistema de Retención Infantil en el asiento delantero, con excepción de los vehículos con cabina simple, siempre y cuando se haya desactivado el airbag previamente."
+      "bookQuote": "Nunca debes poner un Sistema de Retención Infantil en el asiento delantero, con excepción de los vehículos con cabina simple, siempre y cuando se haya desactivado el airbag previamente.",
+      "hint": "El dispositivo frontal está calibrado para un cuerpo adulto; piensa en qué le ocurre a uno más pequeño al desplegarse."
     },
     {
       "id": 104,
@@ -1785,7 +1888,8 @@
       "correctIndex": 1,
       "explanation": "Alcanzados 135 cm y 33 kg puede pasar al cinturón, pero menores de 12 van siempre atrás.",
       "bookPage": 73,
-      "bookQuote": "algún SRI adecuado a su peso, talla y nivel de desarrollo, o el cinturón de seguridad si este ya les queda bien posicionado"
+      "bookQuote": "algún SRI adecuado a su peso, talla y nivel de desarrollo, o el cinturón de seguridad si este ya les queda bien posicionado",
+      "hint": "Alcanzar talla y peso libera del dispositivo, pero la regla de ubicación sigue rigiendo por la edad."
     },
     {
       "id": 105,
@@ -1802,7 +1906,8 @@
       "correctIndex": 1,
       "explanation": "El rombo amarillo corresponde a señales de advertencia de peligro (curvas, animales, niños, etc.).",
       "bookPage": 81,
-      "bookQuote": "Estas tienen forma de rombo, su color de fondo es amarillo y su símbolo es negro."
+      "bookQuote": "Estas tienen forma de rombo, su color de fondo es amarillo y su símbolo es negro.",
+      "hint": "El rombo amarillo nunca obliga ni prohibe: su mision es ponerte alerta ante algo en la via."
     },
     {
       "id": 106,
@@ -1819,7 +1924,8 @@
       "correctIndex": 2,
       "explanation": "El octágono rojo es exclusivo de la señal PARE; obliga a detenerse por completo.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Descarta las formas comunes; esta tiene una cantidad de lados que no comparte con ninguna otra."
     },
     {
       "id": 107,
@@ -1836,7 +1942,8 @@
       "correctIndex": 1,
       "explanation": "\"Ceda el paso\" obliga a dar prioridad a quien circula por la otra vía; se detiene solo si es necesario para cederlo.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "No es frenar siempre ni acelerar: lo central es dar prioridad y solo frenar cuando haga falta."
     },
     {
       "id": 108,
@@ -1853,7 +1960,8 @@
       "correctIndex": 1,
       "explanation": "Las reglamentarias (prohibiciones, obligaciones, prioridades) son predominantemente rojas y blancas.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "El amarillo es de las preventivas; piensa en los tonos de prohibiciones y obligaciones."
     },
     {
       "id": 109,
@@ -1870,7 +1978,8 @@
       "correctIndex": 1,
       "explanation": "El naranja identifica señalización transitoria de zonas de trabajo en la vía.",
       "bookPage": 160,
-      "bookQuote": "Estas señales se instalan para advertir de peligros o entregar información a las personas usuarias cuando se realizan trabajos en la vía y se caracterizan por ser de color naranja."
+      "bookQuote": "Estas señales se instalan para advertir de peligros o entregar información a las personas usuarias cuando se realizan trabajos en la vía y se caracterizan por ser de color naranja.",
+      "hint": "El naranja no es turismo ni hospital: senala algo provisorio mientras intervienen la ruta."
     },
     {
       "id": 110,
@@ -1887,7 +1996,8 @@
       "correctIndex": 2,
       "explanation": "Las informativas de servicios (bencina, hospital, teléfono) son de fondo azul.",
       "bookPage": 157,
-      "bookQuote": "Dentro de estas señales se encuentran también aquellas que informan de servicios (de color azul)"
+      "bookQuote": "Dentro de estas señales se encuentran también aquellas que informan de servicios (de color azul)",
+      "hint": "El fondo azul no advierte ni manda: piensa en lo que ayuda al conductor en ruta, como bencina."
     },
     {
       "id": 111,
@@ -1904,7 +2014,8 @@
       "correctIndex": 1,
       "explanation": "Las informativas de destino son verdes y guían hacia ciudades, rutas y salidas.",
       "bookPage": 81,
-      "bookQuote": "Se clasifican en dos grupos: las que guían a tu destino y las que contienen otra información de interés"
+      "bookQuote": "Se clasifican en dos grupos: las que guían a tu destino y las que contienen otra información de interés",
+      "hint": "Nombre de ciudad mas flecha sobre verde no advierte ni prohibe: te guia hacia donde quieres llegar."
     },
     {
       "id": 112,
@@ -1921,7 +2032,8 @@
       "correctIndex": 1,
       "explanation": "Todas son preventivas / de advertencia de peligro: rombo amarillo.",
       "bookPage": 81,
-      "bookQuote": "Estas tienen forma de rombo, su color de fondo es amarillo y su símbolo es negro."
+      "bookQuote": "Estas tienen forma de rombo, su color de fondo es amarillo y su símbolo es negro.",
+      "hint": "Curva, animales y ninos comparten color y forma: piensa a que familia pertenece el rombo amarillo."
     },
     {
       "id": 113,
@@ -1938,7 +2050,8 @@
       "correctIndex": 1,
       "explanation": "Las normas no se negocian en el momento: se respetan y la señal defectuosa se reporta, no se ignora.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Una senal danada no anula la norma ni te autoriza a tocarla: cumple igual y avisa a quien corresponde."
     },
     {
       "id": 114,
@@ -1955,7 +2068,8 @@
       "correctIndex": 1,
       "explanation": "En cruces no regulados, preferencia para quien aparece por la derecha; el de la izquierda cede.",
       "bookPage": 84,
-      "bookQuote": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha."
+      "bookQuote": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha.",
+      "hint": "Llegar juntos no decide: lo resuelve de que costado se aproxima el otro conductor."
     },
     {
       "id": 115,
@@ -1972,7 +2086,8 @@
       "correctIndex": 1,
       "explanation": "Si el otro viene por su izquierda, usted tiene la preferencia (la suya es la derecha libre), pero igual avance con precaución.",
       "bookPage": 84,
-      "bookQuote": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha."
+      "bookQuote": "siempre tienes que dar preferencia a los vehículos que se aproximan al cruce por la otra vía desde tu derecha.",
+      "hint": "Aplica la regla desde tu posicion: si el otro llega por tu izquierda, ¿a quien le toca ceder?"
     },
     {
       "id": 116,
@@ -1989,7 +2104,8 @@
       "correctIndex": 1,
       "explanation": "El que vira pierde la preferencia y debe ceder a quienes ya circulan, a ciclistas y a peatones.",
       "bookPage": 84,
-      "bookQuote": "Al momento de virar no tienes preferencia: cuando tengas el propósito de virar, carecerás de toda preferencia"
+      "bookQuote": "Al momento de virar no tienes preferencia: cuando tengas el propósito de virar, carecerás de toda preferencia",
+      "hint": "Quien cambia de via se incorpora a un flujo que ya existe; piensa quien estaba antes alli."
     },
     {
       "id": 117,
@@ -2006,7 +2122,8 @@
       "correctIndex": 1,
       "explanation": "En zona rural, preferencia para el camino principal frente a la vía secundaria.",
       "bookPage": 85,
-      "bookQuote": "En las áreas rurales, cuando te aproximes a una vía principal por una secundaria, debes ceder el paso a los vehículos que circulen por la vía principal."
+      "bookQuote": "En las áreas rurales, cuando te aproximes a una vía principal por una secundaria, debes ceder el paso a los vehículos que circulen por la vía principal.",
+      "hint": "En lo rural, la jerarquia de los caminos pesa: ¿manda la via de menor o de mayor categoria?"
     },
     {
       "id": 118,
@@ -2023,7 +2140,8 @@
       "correctIndex": 1,
       "explanation": "En la rotonda tiene preferencia quien ya circula en el anillo; el que entra cede.",
       "bookPage": 94,
-      "bookQuote": "Al llegar a la rotonda, tienes la obligación de ceder el paso a los vehículos que circulan en ella."
+      "bookQuote": "Al llegar a la rotonda, tienes la obligación de ceder el paso a los vehículos que circulan en ella.",
+      "hint": "Incorporarte no te da prioridad sobre el flujo del anillo; piensa quien ya gira adentro."
     },
     {
       "id": 119,
@@ -2040,7 +2158,8 @@
       "correctIndex": 1,
       "explanation": "La preferencia corresponde al vehículo que sube la pendiente.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "En la pendiente angosta gana quien tiene mas dificultad para retomar la marcha si se detiene."
     },
     {
       "id": 120,
@@ -2057,7 +2176,8 @@
       "correctIndex": 1,
       "explanation": "En pasos peatonales no regulados, el peatón tiene derecho preferente de paso (art. 167).",
       "bookPage": 85,
-      "bookQuote": "Al aproximarte a un paso de cebra en el que alguien se disponga a cruzar, debes detenerte y cederle el paso."
+      "bookQuote": "Al aproximarte a un paso de cebra en el que alguien se disponga a cruzar, debes detenerte y cederle el paso.",
+      "hint": "Sin semaforo, el actor a pie sigue siendo el mas protegido; pregunta quien debe esperar."
     },
     {
       "id": 121,
@@ -2074,7 +2194,8 @@
       "correctIndex": 1,
       "explanation": "A los vehículos de emergencia se les cede el paso siempre.",
       "bookPage": 85,
-      "bookQuote": "deberás cederles el derecho a vía, ya sea desplazándote hacia un lado en la calzada y deteniéndote si es necesario hasta que haya pasado"
+      "bookQuote": "deberás cederles el derecho a vía, ya sea desplazándote hacia un lado en la calzada y deteniéndote si es necesario hasta que haya pasado",
+      "hint": "Frente a una emergencia con sirena, tu prioridad pasa a segundo plano: piensa en facilitar su paso."
     },
     {
       "id": 122,
@@ -2091,7 +2212,8 @@
       "correctIndex": 1,
       "explanation": "La preferencia no autoriza a chocar: prima la seguridad. La conducción defensiva exige evitar el siniestro aunque se tenga la razón.",
       "bookPage": 97,
-      "bookQuote": "Una velocidad adecuada significa que, en situaciones arriesgadas, vas lo suficientemente lento como para poder dar preferencia a otras personas, aunque las normas no te lo exijan."
+      "bookQuote": "Una velocidad adecuada significa que, en situaciones arriesgadas, vas lo suficientemente lento como para poder dar preferencia a otras personas, aunque las normas no te lo exijan.",
+      "hint": "Tener la razon no impide un choque: la seguridad esta por sobre el derecho a pasar."
     },
     {
       "id": 123,
@@ -2108,7 +2230,8 @@
       "correctIndex": 1,
       "explanation": "El amarillo anuncia el rojo: se debe detener si se puede hacer con seguridad. No es señal para acelerar.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Si aún estás lejos, tienes margen para frenar con seguridad; acelerar no es la opción correcta."
     },
     {
       "id": 124,
@@ -2125,7 +2248,8 @@
       "correctIndex": 1,
       "explanation": "El rojo intermitente equivale a PARE.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Como la luz fija de su color, exige una detención completa antes de continuar si el cruce está libre."
     },
     {
       "id": 125,
@@ -2142,7 +2266,8 @@
       "correctIndex": 1,
       "explanation": "El verde permite avanzar respetando la prioridad de los peatones que aún cruzan.",
       "bookPage": 91,
-      "bookQuote": "Debes ceder el paso a las y los peatones que estén cruzando por un"
+      "bookQuote": "Debes ceder el paso a las y los peatones que estén cruzando por un",
+      "hint": "Tu luz favorable no te autoriza a pasar por encima de quien ya está sobre la calzada."
     },
     {
       "id": 126,
@@ -2159,7 +2284,8 @@
       "correctIndex": 1,
       "explanation": "La línea continua prohíbe cruzarla y adelantar pasándola.",
       "bookPage": 82,
-      "bookQuote": "e indican que no existen condiciones de seguridad para que pueda ser traspasada."
+      "bookQuote": "e indican que no existen condiciones de seguridad para que pueda ser traspasada.",
+      "hint": "Línea sin interrupciones equivale a prohibición: recuerda qué no debes hacer respecto al otro carril."
     },
     {
       "id": 127,
@@ -2176,7 +2302,8 @@
       "correctIndex": 1,
       "explanation": "El amarillo intermitente indica precaución, avanzar con cuidado.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Intermitente de este color no obliga a detención total; piensa en circular con atención reducida."
     },
     {
       "id": 128,
@@ -2193,7 +2320,8 @@
       "correctIndex": 1,
       "explanation": "Se adelanta por la izquierda.",
       "bookPage": 103,
-      "bookQuote": "Los adelantamientos deben efectuarse siempre por la izquierda."
+      "bookQuote": "Los adelantamientos deben efectuarse siempre por la izquierda.",
+      "hint": "Recuerda por qué lado circula normalmente el tránsito y por cuál se pasa; no es ambos ni depende de la curva."
     },
     {
       "id": 129,
@@ -2210,7 +2338,8 @@
       "correctIndex": 1,
       "explanation": "Está prohibido adelantar en curvas y cimas de cuestas por la falta de visibilidad.",
       "bookPage": 103,
-      "bookQuote": "Te aproximes a la cima de una cuesta o gradiente, o a una curva."
+      "bookQuote": "Te aproximes a la cima de una cuesta o gradiente, o a una curva.",
+      "hint": "Lo prohibido es donde se pierde el alcance visual hacia adelante, no las vías rectas y despejadas."
     },
     {
       "id": 130,
@@ -2227,7 +2356,8 @@
       "correctIndex": 1,
       "explanation": "Prohibido adelantar al acercarse a 200 m o atravesar puentes, túneles y cruces ferroviarios.",
       "bookPage": 103,
-      "bookQuote": "Circules por un puente, viaducto, túnel o cruce ferroviario o al aproximarte a cualquiera de estos lugares desde una distancia mínima de 200 metros."
+      "bookQuote": "Circules por un puente, viaducto, túnel o cruce ferroviario o al aproximarte a cualquiera de estos lugares desde una distancia mínima de 200 metros.",
+      "hint": "Cerca de las vías del tren hay una zona de prohibición medida en metros antes del cruce; no es indiferente."
     },
     {
       "id": 131,
@@ -2244,7 +2374,8 @@
       "correctIndex": 1,
       "explanation": "Por la derecha solo si el de adelante vira a la izquierda o en vía urbana con 3 o más pistas del mismo sentido.",
       "bookPage": 103,
-      "bookQuote": "Cuando el vehículo alcanzado esté realizando o esté a punto de efectuar un viraje a la izquierda. Cuando circules por una vía urbana con tres o más pistas de circulación con un mismo sentido del tránsito."
+      "bookQuote": "Cuando el vehículo alcanzado esté realizando o esté a punto de efectuar un viraje a la izquierda. Cuando circules por una vía urbana con tres o más pistas de circulación con un mismo sentido del tránsito.",
+      "hint": "Por ese lado solo cabe como excepción: cuando el de adelante despeja girando, o en ciudad con varias pistas en tu sentido."
     },
     {
       "id": 132,
@@ -2261,7 +2392,8 @@
       "correctIndex": 1,
       "explanation": "No se adelanta a un vehículo que ya señalizó que va a adelantar o moverse a la izquierda.",
       "bookPage": 103,
-      "bookQuote": "La persona conductora del vehículo que va adelante tuyo haya señalizado que piensa adelantar"
+      "bookQuote": "La persona conductora del vehículo que va adelante tuyo haya señalizado que piensa adelantar",
+      "hint": "Si ya anunció su intención de moverse, respétala: no es momento de pasarlo tú."
     },
     {
       "id": 133,
@@ -2278,7 +2410,8 @@
       "correctIndex": 1,
       "explanation": "Solo se invade el carril contrario si está despejado, visible y hay espacio para completar la maniobra sin riesgo.",
       "bookPage": 103,
-      "bookQuote": "No dispongas de un espacio libre hacia delante, que te permita efectuar la maniobra con seguridad y sin interferir con vehículos que se aproximan en sentido contrario."
+      "bookQuote": "No dispongas de un espacio libre hacia delante, que te permita efectuar la maniobra con seguridad y sin interferir con vehículos que se aproximan en sentido contrario.",
+      "hint": "Para invadir el sentido opuesto exige dos cosas: ver con claridad lo que viene y contar con tramo de sobra."
     },
     {
       "id": 134,
@@ -2295,7 +2428,8 @@
       "correctIndex": 1,
       "explanation": "Se regresa dejando distancia suficiente con el vehículo sobrepasado.",
       "bookPage": 102,
-      "bookQuote": "Vuelve hacia tu derecha una vez que veas en tu espejo retrovisor interior al vehículo adelantado"
+      "bookQuote": "Vuelve hacia tu derecha una vez que veas en tu espejo retrovisor interior al vehículo adelantado",
+      "hint": "No te cierres encima del que pasaste; regresa solo tras separarte lo necesario y con seguridad."
     },
     {
       "id": 135,
@@ -2312,7 +2446,8 @@
       "correctIndex": 1,
       "explanation": "Se cambia a luces bajas al cruzarse, para no deslumbrar al otro conductor.",
       "bookPage": 111,
-      "bookQuote": "deberás cambiar a luces bajas para no cegar a quien lo conduce."
+      "bookQuote": "deberás cambiar a luces bajas para no cegar a quien lo conduce.",
+      "hint": "Ni mantenerlas ni apagarlas: ajusta el haz para no deslumbrar al que viene de frente."
     },
     {
       "id": 136,
@@ -2329,7 +2464,8 @@
       "correctIndex": 1,
       "explanation": "Las intermitentes de emergencia se usan con el vehículo detenido por falla/avería, no para estacionar mal.",
       "bookPage": 20,
-      "bookQuote": "Las luces intermitentes de advertencia de peligro sólo deben utilizarse cuando el vehículo se encuentra detenido a consecuencia de una falla o avería"
+      "bookQuote": "Las luces intermitentes de advertencia de peligro sólo deben utilizarse cuando el vehículo se encuentra detenido a consecuencia de una falla o avería",
+      "hint": "Relaciónalas con un vehículo inmóvil por un problema mecánico, no con circular ni mal estacionar."
     },
     {
       "id": 137,
@@ -2346,7 +2482,8 @@
       "correctIndex": 1,
       "explanation": "Al estacionar en vía sin alumbrado se encienden las luces de estacionamiento para ser visto.",
       "bookPage": 112,
-      "bookQuote": "Cuando estaciones en una vía pública sin alumbrado, enciende las luces de estacionamiento."
+      "bookQuote": "Cuando estaciones en una vía pública sin alumbrado, enciende las luces de estacionamiento.",
+      "hint": "Debes ser visto sin molestar: piensa en la luz tenue propia de un vehículo detenido."
     },
     {
       "id": 138,
@@ -2363,7 +2500,8 @@
       "correctIndex": 1,
       "explanation": "La bocina se usa solo para prevenir un accidente; está mal usarla cerca de ciclistas, en túneles o al sobrepasar animales.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Su uso es excepcional: descarta saludos, apuros o animales y piensa en evitar un peligro real."
     },
     {
       "id": 139,
@@ -2380,7 +2518,8 @@
       "correctIndex": 1,
       "explanation": "Está prohibido usar luces altas con el vehículo detenido o estacionado.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Quieto o aparcado ese haz solo estorba; descarta que sea exigido o recomendable."
     },
     {
       "id": 140,
@@ -2397,7 +2536,8 @@
       "correctIndex": 1,
       "explanation": "Se instala el triángulo de emergencia con anticipación para advertir a los demás (y se encienden las intermitentes si el sistema eléctrico funciona).",
       "bookPage": 112,
-      "bookQuote": "Si tu vehículo ha sufrido alguna falla, es importante que instales con anticipación el triángulo para casos de emergencia."
+      "bookQuote": "Si tu vehículo ha sufrido alguna falla, es importante que instales con anticipación el triángulo para casos de emergencia.",
+      "hint": "Existe un dispositivo reflectante que se coloca antes del vehículo para advertir a los demás."
     },
     {
       "id": 141,
@@ -2414,7 +2554,8 @@
       "correctIndex": 1,
       "explanation": "Se estaciona al costado derecho, en el sentido del tránsito.",
       "bookPage": 104,
-      "bookQuote": "estaciónate al lado derecho de la calzada en el sentido del tránsito."
+      "bookQuote": "estaciónate al lado derecho de la calzada en el sentido del tránsito.",
+      "hint": "Estacionas del mismo lado por el que circulas, no del opuesto ni en cualquier parte."
     },
     {
       "id": 142,
@@ -2431,7 +2572,8 @@
       "correctIndex": 2,
       "explanation": "Lo correcto es al costado derecho donde no exista prohibición; los demás son lugares prohibidos.",
       "bookPage": 104,
-      "bookQuote": "siempre que la señalización no lo prohíba, estaciónate al lado derecho de la calzada en el sentido del tránsito."
+      "bookQuote": "siempre que la señalización no lo prohíba, estaciónate al lado derecho de la calzada en el sentido del tránsito.",
+      "hint": "Descarta vereda, cruce y doble fila; queda el único punto que no obstruye a nadie."
     },
     {
       "id": 143,
@@ -2448,7 +2590,8 @@
       "correctIndex": 1,
       "explanation": "La doble fila obstruye el tránsito y está prohibida (las intermitentes no la autorizan).",
       "bookPage": 104,
-      "bookQuote": "En doble fila, respecto a otros vehículos estacionados o detenidos en la calzada junto a la cuneta."
+      "bookQuote": "En doble fila, respecto a otros vehículos estacionados o detenidos en la calzada junto a la cuneta.",
+      "hint": "Ocupar una segunda hilera traba el flujo, y las luces de emergencia no lo vuelven legal."
     },
     {
       "id": 144,
@@ -2465,7 +2608,8 @@
       "correctIndex": 1,
       "explanation": "No se debe detener ni estacionar sobre pasos peatonales.",
       "bookPage": 104,
-      "bookQuote": "Lugares donde está prohibido estacionar y detenerse: Donde las señales oficiales lo prohíban. En aceras, pasos de peatones o lugares destinados sólo al tránsito de los mismos."
+      "bookQuote": "Lugares donde está prohibido estacionar y detenerse: Donde las señales oficiales lo prohíban. En aceras, pasos de peatones o lugares destinados sólo al tránsito de los mismos.",
+      "hint": "Que sea rápido o de día no cambia nada: sigues bloqueando el paso de las personas."
     },
     {
       "id": 145,
@@ -2482,7 +2626,8 @@
       "correctIndex": 1,
       "explanation": "Bloquear un grifo impide el trabajo de emergencia de los bomberos; está prohibido.",
       "bookPage": 105,
-      "bookQuote": "A menos de 5 metros de un grifo para incendios."
+      "bookQuote": "A menos de 5 metros de un grifo para incendios.",
+      "hint": "Piensa para qué sirve ese grifo en una urgencia y a quién dejarías sin acceso."
     },
     {
       "id": 146,
@@ -2499,7 +2644,8 @@
       "correctIndex": 1,
       "explanation": "Se estaciona sin obstaculizar la circulación ni la visibilidad.",
       "bookPage": 104,
-      "bookQuote": "Un vehículo estacionado puede impedir o perturbar la circulación del resto."
+      "bookQuote": "Un vehículo estacionado puede impedir o perturbar la circulación del resto.",
+      "hint": "El criterio mira a los demás conductores y peatones, no tu comodidad ni proteger tu auto."
     },
     {
       "id": 147,
@@ -2516,7 +2662,8 @@
       "correctIndex": 1,
       "explanation": "Detención = reacción + frenado.",
       "bookPage": 23,
-      "bookQuote": "La distancia de detención (S) es la suma de la distancia de reacción (R) y la distancia de frenado (F)."
+      "bookQuote": "La distancia de detención (S) es la suma de la distancia de reacción (R) y la distancia de frenado (F).",
+      "hint": "Es un fenómeno físico de dos etapas del proceso de detenerse, no de magnitudes como peso o combustible."
     },
     {
       "id": 148,
@@ -2533,7 +2680,8 @@
       "correctIndex": 1,
       "explanation": "A mayor velocidad, mayor distancia de reacción y de frenado, por lo tanto mayor distancia de detención.",
       "bookPage": 24,
-      "bookQuote": "Así, si duplicas la velocidad, la distancia de frenado aumenta cuatro veces"
+      "bookQuote": "Así, si duplicas la velocidad, la distancia de frenado aumenta cuatro veces",
+      "hint": "Si subes la velocidad, la distancia para parar sigue la misma tendencia que en cualquier vía, no se mantiene."
     },
     {
       "id": 149,
@@ -2550,7 +2698,8 @@
       "correctIndex": 1,
       "explanation": "La menor adherencia en piso mojado aumenta la distancia de frenado; hay que bajar la velocidad y aumentar la distancia.",
       "bookPage": 98,
-      "bookQuote": "El asfalto mojado es más resbaladizo que el seco"
+      "bookQuote": "El asfalto mojado es más resbaladizo que el seco",
+      "hint": "Piso húmedo significa menor adherencia; razona qué le pasa a los metros que necesitas para parar."
     },
     {
       "id": 150,
@@ -2567,7 +2716,8 @@
       "correctIndex": 1,
       "explanation": "Seguir muy de cerca es uno de los factores que con mayor frecuencia provoca choques en serie.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Sin espacio no alcanzas a frenar; piensa en el peligro y en los choques encadenados, no en beneficios."
     },
     {
       "id": 151,
@@ -2584,7 +2734,8 @@
       "correctIndex": 1,
       "explanation": "Anticiparse (conducción defensiva) reduce notablemente la distancia de detención.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "La clave es la conducción defensiva: prever el riesgo, no las distracciones ni la velocidad."
     },
     {
       "id": 152,
@@ -2601,7 +2752,8 @@
       "correctIndex": 1,
       "explanation": "Está prohibido conducir con elementos que aíslen al conductor de su entorno acústico u óptico.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Aislarte del sonido del tránsito te quita información; recuerda qué dice la ley sobre eso."
     },
     {
       "id": 153,
@@ -2618,7 +2770,8 @@
       "correctIndex": 1,
       "explanation": "Planificar el trayecto y verificar frenos, neumáticos y luces previene siniestros.",
       "bookPage": 22,
-      "bookQuote": "Neumáticos Desempañador luneta trasera Luces Frenos Espejos Puertas Bocina"
+      "bookQuote": "Neumáticos Desempañador luneta trasera Luces Frenos Espejos Puertas Bocina",
+      "hint": "Lo defensivo es anticiparse: organizar el trayecto y chequear el auto, jamás confiarse."
     },
     {
       "id": 154,
@@ -2635,7 +2788,8 @@
       "correctIndex": 1,
       "explanation": "Es falta gravísima (1,5 a 3 UTM + suspensión 5 a 45 días). Aplica aunque esté detenido en un rojo o ante un PARE.",
       "bookPage": 143,
-      "bookQuote": "Conducir un vehículo manipulando un dispositivo de telefonía móvil o cualquier otro artefacto electrónico o digital, que no venga incorporado de fábrica en él, excepto si la acción se realiza a través de un sistema de manos libres"
+      "bookQuote": "Conducir un vehículo manipulando un dispositivo de telefonía móvil o cualquier otro artefacto electrónico o digital, que no venga incorporado de fábrica en él, excepto si la acción se realiza a través de un sistema de manos libres",
+      "hint": "Recuerda que la 'Ley No Chat' es muy estricta y aplica incluso detenido: ubícala en el tramo más severo de faltas."
     },
     {
       "id": 155,
@@ -2652,7 +2806,8 @@
       "correctIndex": 1,
       "explanation": "Solo se permite mediante manos libres, con ambas manos al volante; manipularlo está prohibido.",
       "bookPage": 141,
-      "bookQuote": "En caso que el dispositivo no venga incorporado de fábrica en el vehículo, se autoriza su manipulación solamente a través de un equipo de manos libres."
+      "bookQuote": "En caso que el dispositivo no venga incorporado de fábrica en el vehículo, se autoriza su manipulación solamente a través de un equipo de manos libres.",
+      "hint": "La clave es no tocar el aparato y mantener ambas manos al volante mientras avanzas."
     },
     {
       "id": 156,
@@ -2669,7 +2824,8 @@
       "correctIndex": 2,
       "explanation": "Pasarse un rojo es gravísima: aumenta fuertemente el riesgo de colisión en el cruce.",
       "bookPage": 143,
-      "bookQuote": "No detenerse ante la luz roja de las señales luminosas del tránsito, o ante la señal “PARE”."
+      "bookQuote": "No detenerse ante la luz roja de las señales luminosas del tránsito, o ante la señal “PARE”.",
+      "hint": "Cruzar con luz roja dispara el riesgo de choque en la intersección; piensa en el tramo de mayor severidad."
     },
     {
       "id": 157,
@@ -2686,7 +2842,8 @@
       "correctIndex": 1,
       "explanation": "Se expresan en UTM; el monto en pesos varía cada mes según el valor de la UTM.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Piensa en una unidad cuyo valor en pesos cambia mes a mes, no en un monto fijo ni en moneda extranjera."
     },
     {
       "id": 158,
@@ -2703,7 +2860,8 @@
       "correctIndex": 3,
       "explanation": "Las gravísimas no tienen rebaja por pronto pago.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "El descuento por pronto pago se pierde justo en el tramo de faltas de mayor severidad."
     },
     {
       "id": 159,
@@ -2720,7 +2878,8 @@
       "correctIndex": 1,
       "explanation": "Conducir contra el sentido del tránsito es una falta grave (1 a 1,5 UTM).",
       "bookPage": 143,
-      "bookQuote": "Conducir en contra del sentido del tránsito."
+      "bookQuote": "Conducir en contra del sentido del tránsito.",
+      "hint": "Ir en sentido contrario no es lo más leve ni queda impune: ubícalo en una severidad media-alta."
     },
     {
       "id": 160,
@@ -2737,7 +2896,8 @@
       "correctIndex": 1,
       "explanation": "Entregar el vehículo a quien no cumple los requisitos para conducir es una falta grave que también sanciona al propietario.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Recuerda que el dueño del vehículo también responde por cederlo a quien no cumple los requisitos para conducir."
     },
     {
       "id": 161,
@@ -2754,7 +2914,8 @@
       "correctIndex": 2,
       "explanation": "Regla general: 18 años (con excepción a los 17 bajo condiciones especiales).",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Recuerda la mayoría de edad como regla general; hay una excepción un año antes."
     },
     {
       "id": 162,
@@ -2771,7 +2932,8 @@
       "correctIndex": 1,
       "explanation": "A los 17 es excepcional: escuela de conductores + autorización notarial + acompañante con licencia B de más de 5 años.",
       "bookPage": 142,
-      "bookQuote": "una persona de 17 años puede obtener una Licencia Clase B siempre que cuente con autorización de su madre, padre, apoderados o representantes legales, y haya aprobado un curso en una Escuela de Conductores."
+      "bookQuote": "una persona de 17 años puede obtener una Licencia Clase B siempre que cuente con autorización de su madre, padre, apoderados o representantes legales, y haya aprobado un curso en una Escuela de Conductores.",
+      "hint": "A esa edad es excepcional: se acumulan varias exigencias (formación, autorización legal y compañía con experiencia)."
     },
     {
       "id": 163,
@@ -2788,7 +2950,8 @@
       "correctIndex": 1,
       "explanation": "Se exige egreso de enseñanza básica (la media o un título superior también lo acreditan).",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Se pide el nivel escolar inicial obligatorio, no la media ni un grado superior."
     },
     {
       "id": 164,
@@ -2805,7 +2968,8 @@
       "correctIndex": 1,
       "explanation": "Habilita para vehículos de 3 o 4 ruedas de transporte particular; los buses y camiones requieren licencia profesional, y las motos, licencia Clase C.",
       "bookPage": null,
-      "bookQuote": ""
+      "bookQuote": "",
+      "hint": "Transporte particular en vehículos livianos; quedan fuera los profesionales y las dos ruedas."
     },
     {
       "id": 165,
@@ -2822,7 +2986,8 @@
       "correctIndex": 3,
       "explanation": "Los obligatorios son licencia, permiso de circulación, revisión técnica y SOAP; la factura de compra no se exige para circular.",
       "bookPage": 139,
-      "bookQuote": "Los vehículos motorizados no pueden circular sin su placa patente, el permiso de circulación otorgado por la respectiva Municipalidad y el certificado de un Seguro Obligatorio de Accidentes Personales."
+      "bookQuote": "Los vehículos motorizados no pueden circular sin su placa patente, el permiso de circulación otorgado por la respectiva Municipalidad y el certificado de un Seguro Obligatorio de Accidentes Personales.",
+      "hint": "Distingue lo exigido para transitar de un simple comprobante de la operación de compra."
     },
     {
       "id": 166,
@@ -2839,7 +3004,8 @@
       "correctIndex": 1,
       "explanation": "El permiso de circulación habilita al vehículo; la licencia habilita a la persona.",
       "bookPage": 139,
-      "bookQuote": "El permiso de circulación corresponde a un impuesto que anualmente debe pagarse por el vehículo a la Municipalidad."
+      "bookQuote": "El permiso de circulación corresponde a un impuesto que anualmente debe pagarse por el vehículo a la Municipalidad.",
+      "hint": "Busca el que habilita al vehículo (no a la persona) y se paga cada año en la municipalidad."
     },
     {
       "id": 167,
@@ -2856,7 +3022,8 @@
       "correctIndex": 1,
       "explanation": "Se requieren revisión técnica y SOAP vigentes.",
       "bookPage": 139,
-      "bookQuote": "Para obtener este permiso, los vehículos deben tener su revisión técnica vigente y estar cubiertos por el Seguro Obligatorio de Accidentes Personales (SOAP)."
+      "bookQuote": "Para obtener este permiso, los vehículos deben tener su revisión técnica vigente y estar cubiertos por el Seguro Obligatorio de Accidentes Personales (SOAP).",
+      "hint": "Necesitas acreditar a la vez el estado técnico y el seguro de personas, ambos vigentes."
     }
   ]
 }
