@@ -598,14 +598,13 @@
   //  MODO ESTUDIO
   // =========================================================
   function startStudy() {
-    buildStudyCategoryOptions();
+    buildCategoryOptions($("#study-category"));
     study = { pool: [], current: 0 };
     loadStudyPool("all");
     showScreen("screen-study");
   }
 
-  function buildStudyCategoryOptions() {
-    var sel = $("#study-category");
+  function buildCategoryOptions(sel) {
     if (sel.dataset.ready) return;
     sel.appendChild(new Option("Todas las categorías", "all"));
     var seen = {};
@@ -617,6 +616,22 @@
     });
     sel.dataset.ready = "1";
   }
+
+  // =========================================================
+  //  MODO PRÁCTICA CON PISTAS
+  // =========================================================
+  var practice = null;
+
+  function startPractice() {
+    buildCategoryOptions($("#practice-category"));
+    practice = { pool: [], current: 0, timerId: null };
+    loadPracticePool("all");
+    showScreen("screen-practice");
+  }
+
+  function loadPracticePool(category) { /* implemented in Task 3 */ }
+  function renderPracticeQuestion() { /* implemented in Task 3 */ }
+  function stopPracticeTimer() { /* implemented in Task 4 */ }
 
   function loadStudyPool(category) {
     var src = category === "all" ? BANK : BANK.filter(function (q) { return q.category === category; });
@@ -730,6 +745,7 @@
   //  RESET / NAVEGACIÓN GLOBAL
   // =========================================================
   function goHome() {
+    stopPracticeTimer();
     stopTimer();
     exam = null;
     renderBestScore();
@@ -766,6 +782,16 @@
       if (study.current < study.pool.length - 1) { study.current++; renderStudyQuestion(); }
     });
     $("#study-category").addEventListener("change", function (e) { loadStudyPool(e.target.value); });
+
+    $("#btn-start-practice").addEventListener("click", startPractice);
+    $("#btn-practice-back").addEventListener("click", goHome);
+    $("#practice-category").addEventListener("change", function (e) { loadPracticePool(e.target.value); });
+    $("#btn-practice-prev").addEventListener("click", function () {
+      if (practice.current > 0) { practice.current--; renderPracticeQuestion(); }
+    });
+    $("#btn-practice-next").addEventListener("click", function () {
+      if (practice.current < practice.pool.length - 1) { practice.current++; renderPracticeQuestion(); }
+    });
 
     // Cierre de modales por backdrop / botones [data-close]
     document.querySelectorAll("[data-close]").forEach(function (node) {
@@ -818,6 +844,7 @@
         status.textContent = "";
         $("#btn-start-exam").disabled = false;
         $("#btn-start-study").disabled = false;
+        $("#btn-start-practice").disabled = false;
         renderBestScore();
         renderHistory();
       })

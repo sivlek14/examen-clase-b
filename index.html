@@ -36,6 +36,7 @@
           <div class="home-actions">
             <button id="btn-start-exam" class="btn btn--primary btn--xl" type="button" disabled>Comenzar examen</button>
             <button id="btn-start-study" class="btn btn--ghost btn--xl" type="button" disabled>Modo estudio</button>
+            <button id="btn-start-practice" class="btn btn--ghost btn--xl" type="button" disabled>🎯 Práctica con pistas</button>
           </div>
 
           <p class="disclaimer disclaimer--home" role="note">
@@ -110,6 +111,28 @@
       </div>
     </section>
 
+    <!-- ============ PANTALLA: PRÁCTICA CON PISTAS ============ -->
+    <section id="screen-practice" class="screen" aria-labelledby="practice-heading" hidden>
+      <div class="study-bar">
+        <div class="study-bar__inner container">
+          <button id="btn-practice-back" class="btn btn--small btn--outline" type="button">◀ Inicio</button>
+          <h2 id="practice-heading" class="study-bar__title">🎯 Práctica con pistas</h2>
+          <label class="study-filter">
+            <span class="sr-only">Filtrar por categoría</span>
+            <select id="practice-category" aria-label="Filtrar por categoría"></select>
+          </label>
+        </div>
+      </div>
+      <div class="container exam-body">
+        <p id="practice-counter" class="study-counter" aria-live="polite"></p>
+        <div id="practice-host" class="question-host"></div>
+        <nav class="exam-nav exam-nav--inline" aria-label="Navegación de práctica">
+          <button id="btn-practice-prev" class="btn btn--outline" type="button">◀ Anterior</button>
+          <button id="btn-practice-next" class="btn btn--outline" type="button">Siguiente ▶</button>
+        </nav>
+      </div>
+    </section>
+
     <!-- ============ PANTALLA: RESULTADOS ============ -->
     <section id="screen-results" class="screen" aria-labelledby="results-heading" hidden>
       <div class="container">
@@ -150,6 +173,7 @@
 
   <!-- Región para anuncios a lectores de pantalla (hitos del temporizador) -->
   <div id="timer-announce" class="sr-only" role="status" aria-live="assertive"></div>
+  <div id="practice-announce" class="sr-only" role="status" aria-live="polite"></div>
 
   <!-- ============ MODAL: MAPA DE PREGUNTAS ============ -->
   <div id="map-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="map-title" hidden>
